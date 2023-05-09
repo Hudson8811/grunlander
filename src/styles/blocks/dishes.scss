@@ -1,0 +1,547 @@
+.dishes {
+	position: relative;
+	z-index: 2;
+	&__swiper {
+	}
+	&__dish {
+	}
+	&__pagination {
+	}
+}
+.swiper {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+
+.dish {
+	&__front {
+		padding: 440px 0 500px;
+	}
+	&__back {
+		padding-top: 70px;
+	}
+}
+.front-dish {
+	&__container {
+		opacity: 1;
+		transition: all 0.5s ease 0.7s;
+		position: relative;
+		width: 1440px;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	&__card {
+		position: relative;
+		padding: 35px 5px;
+		width: 526px;
+		max-width: 100%;
+		margin: 0 auto;
+		background: #FFFFFF;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+		border-radius: 25px;
+	}
+	&__images {
+		opacity: 1;
+		width: 1070px;
+		height: 940px;
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		transform: translate(-50%, -50%) scale(1) rotate(0);
+		transition: all 0.7s ease 0s;
+		&-row {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	}
+	&__image {
+		img {
+			width: 100%;
+			height: 100%;
+		}
+		&-flour {
+			width: 265px;
+			height: 240px;
+		}
+		&-pack {
+			width: 350px;
+			height: 310px;
+		}
+		&-butter {
+			width: 160px;
+			height: 190px;
+		}
+		&-milk {
+			width: 260px;
+			height: 230px;
+		}
+		&-mustard {
+			width: 200px;
+			height: 200px;
+		}
+		&-photocard {
+			width: 310px;
+			height: 310px;
+		}
+		&-plate {
+			width: 400px;
+			height: 400px;
+		}
+		&-crackers {
+			width: 270px;
+			height: 280px;
+		}
+	}
+	.dishes__pagination {
+		display: flex;
+		justify-content: center;
+		span {
+			margin: 0 5px;
+			width: 25px;
+			height: 5px;
+			border-radius: 50px;
+			display: block;
+			background: #182D19;
+			opacity: 0.3;
+			&.dishes__pagination-active {
+				opacity: 1;
+			}
+		}
+	}
+	&__text {
+		margin-top: 24px;
+		font-family: 'Circe';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 25px;
+		line-height: 118.4%;
+		text-align: center;
+		color: #144632;
+	}
+	&__button {
+		margin-top: 24px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__switcher {
+		cursor: pointer;
+		width: 130px;
+		height: 66px;
+		border: 3px solid #003E14;
+		border-radius: 34px;
+		padding: 10px;
+		position: relative;
+		transition: all 0.3s ease 0.3s;
+		&::before{
+			content:'';
+			transition: transform 0.3s ease 0s, left 0.3s ease 0s, background 0.3s ease 0.3s;
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 0;
+			transform: translate(10px, -50%);
+			width: 45px;
+			height: 45px;
+			background: #003E14;
+			border-radius: 50%;
+		}
+		&.js-active {
+			border: 3px solid #ffffff;
+			&::before{
+				transform: translate(calc(-100% - 10px), -50%);
+				left: 100%;
+				background: #FFFFFF;
+			}
+		}
+	}
+	&__button-desc {
+		width: 326px;
+		margin-top: 16px;
+		font-family: 'Lifehack Sans';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 24px;
+		line-height: 24px;
+		text-align: center;
+		letter-spacing: 0.09em;
+		text-transform: uppercase;
+		color: #144632;
+		position: relative;
+		svg {
+			position: absolute;
+			top: 0;
+			right: 45px;
+			width: 35px;
+			height: 45px;
+			transform: translate(0, calc(-100% - 10px));
+		}
+	}
+	
+	.swiper-btn {
+		cursor: pointer;
+		position: absolute;
+		z-index: 10;
+		width: 76px;
+		height: 76px;
+		top: 40px;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+		&-prev {
+			left: 190px;
+		}
+		&-next {
+			right: 190px;
+		}
+	}
+
+	&.js-active {
+		.front-dish__container {
+			opacity: 0;
+		}
+		.front-dish__images {
+			opacity: 0;
+			transform: translate(-50%, -50%) scale(0) rotate(90deg);
+		}
+	}
+}
+.front-switcher {
+}
+
+.back-dish {
+	display: none;
+	&__container {
+		transition: all 0.3s ease 0.5s;
+		opacity: 0;
+		width: 1440px;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	&__row {
+		display: flex;
+	}
+	&__img {
+		flex: 1 1 auto;
+	}
+	&__body {
+		flex: 0 1 60%;
+		padding-top: 110px;
+	}
+	&__title {
+		font-family: 'Lifehack Sans';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 52px;
+		line-height: 52px;
+		letter-spacing: 0.03em;
+		color: #FFFFFF;
+	}
+	&__text {
+		margin-top: 16px;
+		padding-left: 42px;
+		font-family: 'Circe';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 136%;
+		letter-spacing: -0.03em;
+		color: #FFFFFF;
+		opacity: 0.8;
+	}
+	&__button {
+		margin-top: 64px;
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__switcher {
+		cursor: pointer;
+		width: 130px;
+		height: 66px;
+		border: 3px solid #ffffff;
+		border-radius: 34px;
+		padding: 10px;
+		position: relative;
+		transition: all 0.3s ease 0.3s;
+		&::before{
+			content:'';
+			transition: transform 0.3s ease 0s, left 0.3s ease 0s, background 0.3s ease 0.3s;
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 100%;
+			transform: translate(calc(-100% - 10px), -50%);
+			width: 45px;
+			height: 45px;
+			background: #ffffff;
+			border-radius: 50%;
+		}
+		&.js-active {
+			border: 3px solid #003E14;
+			&::before{
+				transform: translate(10px, -50%);
+				left: 0;
+				background: #003E14;
+			}
+		}
+	}
+	&__button-desc {
+		margin-top: 16px;
+		width: 200px;
+		font-family: 'Lifehack Sans';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 24px;
+		line-height: 24px;
+		text-align: center;
+		letter-spacing: 0.09em;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		position: relative;
+		svg {
+			position: absolute;
+			top: 0;
+			right: 0px;
+			width: 35px;
+			height: 45px;
+			transform: translate(20%, -70%);
+		}
+	}
+	&__book {
+	}
+
+	&.js-active {
+		.back-dish__container {
+			opacity: 1;
+		}
+	}
+}
+.back-switcher {
+}
+
+.book-back-dish {
+	position: relative;
+	&__img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+		padding: 100px 0 250px;
+	}
+	&__ingredients {
+		flex: 0 1 338px;
+		margin-left: 190px;
+		position: relative;
+		&-bg {
+			position: absolute;
+			top: 0;
+			left: -100px;
+			width: 150%;
+			height: 125%;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+		&-title {
+			font-family: 'Lifehack Sans';
+			font-style: normal;
+			font-weight: 800;
+			font-size: 40px;
+			line-height: 48px;
+			text-align: center;
+			letter-spacing: 0.05em;
+			color: #144632;
+		}
+		&-ul {
+		}
+		&-li {
+			display: flex;
+			align-items: flex-end;
+			margin-top: 16px;
+		}
+		&-name {
+			font-family: 'Circe';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 15px;
+			line-height: 100%;
+			display: flex;
+			align-items: center;
+			letter-spacing: -0.01em;
+			color: #C09552;
+		}
+		&-dotes {
+			margin: 0 8px;
+			flex: 1 1 auto;
+			border-bottom: 3.5px dotted #144632;
+		}
+		&-amount {
+			font-family: 'Circe';
+			font-style: normal;
+			font-weight: 800;
+			font-size: 15px;
+			line-height: 100%;
+			display: flex;
+			align-items: center;
+			letter-spacing: -0.01em;
+			color: #C09552;
+		}
+		&-order {
+			margin-top: 32px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		&-text-bottom {
+			font-family: 'Circe';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 17px;
+			line-height: 136%;
+			text-align: center;
+			letter-spacing: -0.03em;
+			color: #144632;
+			opacity: 0.8;
+		}
+		&-button {
+			margin-top: 20px;
+			position: relative;
+			display: inline-block;
+			span {
+				position: relative;
+				z-index: 4;
+				padding: 15px 27px;
+				font-family: 'Circe';
+				font-style: normal;
+				font-weight: 700;
+				font-size: 17px;
+				line-height: 136%;
+				text-align: center;
+				letter-spacing: 0.1em;
+				text-transform: uppercase;
+				color: #FFFFFF;
+				position: relative;
+				display: inline-block;
+				background: #C09552;
+				border-radius: 25px;
+				cursor: pointer;
+			}
+			&::before,&::after{
+				content:'';
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				background: #C09552;
+				border-radius: 500px;
+				transform: translate(-50%, -50%);
+			}
+			&::before{
+				transition: all 0.3s ease 0s;
+				z-index: 3;
+				opacity: 0.3;
+				width: calc(0% + 20px);
+				height: calc(0% + 20px);
+			}
+			&::after{
+				transition: all 0.3s ease 0.1s;
+				z-index: 2;
+				opacity: 0.5;
+				width: calc(0% + 36px);
+				height: calc(0% + 32px);
+			}
+			&:hover{
+				&::before{
+					width: calc(100% + 20px);
+					height: calc(100% + 20px);
+				}
+				&::after{
+					width: calc(100% + 36px);
+					height: calc(100% + 32px);
+				}
+			}
+		}
+	}
+	&__cooking {
+		flex: 0 1 520px;
+		margin-right: 160px;
+		position: relative;
+		&-bg {
+			position: absolute;
+			top: -30px;
+			left: -20px;
+			width: 100%;
+			height: 100%;
+			img {
+				width: 120%;
+				height: 125%;
+			}
+		}
+		&-title {
+			font-family: 'Lifehack Sans';
+			font-style: normal;
+			font-weight: 800;
+			font-size: 40px;
+			line-height: 48px;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
+			color: #144632;
+			padding-left: 56px;
+		}
+		&-ul {
+		}
+		&-li {
+			display: flex;
+			align-items: center;
+			margin-top: 16px;
+		}
+		&-num {
+			margin-right: 16px;
+			background: #C09552;
+			width: 29px;
+			height: 29px;
+			min-width: 29px;
+			min-height: 29px;
+			font-family: 'Circe';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 100%;
+			display: flex;
+			align-items: center;
+			text-align: center;
+			letter-spacing: -0.01em;
+			color: #FFFFFF;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 50%;
+		}
+		&-text {
+			font-family: 'Circe';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 15px;
+			line-height: 100%;
+			display: flex;
+			align-items: center;
+			letter-spacing: -0.01em;
+			color: #8C9692;
+		}
+	}
+}
