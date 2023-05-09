@@ -46,26 +46,6 @@
 		padding: 0 6.67vw;
 	}
 }
-.main-bg {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 860px;
-	@media (max-width: 1440px){
-		height: 59.72vw;
-	}
-	@media (max-width: 768px){
-		height: 172vw;
-	}
-	img {
-		width: 100%;
-		height: 100%;
-		@media (min-width: 2000px){
-			object-fit: cover;
-		}
-	}
-}
 .desk {
 	@media (max-width: 768px){
 		display: none;

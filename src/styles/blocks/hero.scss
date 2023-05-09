@@ -1,7 +1,25 @@
 .hero {
 	position: relative;
-	background-color: #172C18;
-	
+	&__bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		height: 860px;
+		@media (max-width: 1440px){
+			height: 59.72vw;
+		}
+		@media (max-width: 768px){
+			height: 172vw;
+		}
+		img {
+			width: 100%;
+			height: 100%;
+			@media (min-width: 2000px){
+				object-fit: cover;
+			}
+		}
+	}
 	&__container {
 		position: relative;
 		z-index: 2;
@@ -9,7 +27,10 @@
 		max-width: 100%;
 		margin: 0 auto;
 		padding: 0 190px;
-		@media (max-width: 768px){
+		@media (max-width: 1440px){
+			padding: 0 13.19vw;
+		}
+		@media (max-width: 768px) {
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -18,6 +39,7 @@
 	}
 	&__body {
 		position: relative;
+		z-index: 5;
 		max-width: 520px;
 		padding-top: 138px;
 		padding-bottom: 90px;
@@ -116,7 +138,7 @@
 			margin-top: 1.25vw;
 		}
 		@media (max-width: 768px){
-			margin-top: 78vw;
+			margin-top: 90vw;
 			flex-direction: column;
 		}
 		img {
@@ -159,11 +181,17 @@
 	&__img {
 		position: absolute;
 		top: 0;
-		right: 170px;
-		width: 575px;
+		right: 0;
+		width: 770px;
 		height: 690px;
+		@media (max-width: 1440px){
+			width: 53.47vw;
+			height: 47.92vw;
+		}
 		@media (max-width: 768px){
-			display: none;
+			top: 30%;
+			width: 93.06vw;
+			height: 83.33vw;
 		}
 		img {
 			width: 100%;
