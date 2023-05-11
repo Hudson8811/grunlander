@@ -1,9 +1,10 @@
 $(document).ready(function() {
-	var swiper = new Swiper(".dishes__swiper", {
+	var dishes__swiper = new Swiper(".dishes__swiper", {
 		navigation: {
 			prevEl: ".dishes__swiper .swiper-btn-prev",
 			nextEl: ".dishes__swiper .swiper-btn-next",
 		},
+		allowTouchMove: false,
 	});
 
 	$( ".front-switcher" ).on( "click", function() {

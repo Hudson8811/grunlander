@@ -10,7 +10,7 @@
 			height: 59.72vw;
 		}
 		@media (max-width: 768px){
-			height: 172vw;
+			height: 180vw;
 		}
 		img {
 			width: 100%;
@@ -41,12 +41,13 @@
 		width: 100%;
 		height: 150px;
 		z-index: 2;
+		background: url('../images/hero/leafs-full-width.png') 0 0 / 100% 100% no-repeat;
 		@media (max-width: 1440px){
 			height: 10.42vw;
 		}
-		img {
-			width: 100%;
-			height: 100%;
+		@media (max-width: 768px){
+			background: url('../images/hero/leafs-full-width-mob.png') 0 0 / 100% 100% no-repeat;
+			height: 130vw;
 		}
 	}
 	&__body {
@@ -202,8 +203,8 @@
 		}
 		@media (max-width: 768px){
 			top: 30%;
-			width: 93.06vw;
-			height: 83.33vw;
+			width: 80vw;
+			height: 85vw;
 		}
 		img {
 			width: 100%;

@@ -57,3 +57,14 @@
 		display: block;
 	}
 }
+.button-switcher-anim {
+	background: green;
+	box-shadow: 0 -200px 100px -120px red inset;
+	animation: background 2s infinite alternate;
+}
+@keyframes background {
+	50% {
+		background: red;
+		box-shadow: 0 -200px 100px -100px green inset;
+	}
+}
