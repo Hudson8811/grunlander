@@ -59,12 +59,12 @@
 }
 .button-switcher-anim {
 	background: green;
-	box-shadow: 0 -200px 100px -120px red inset;
-	animation: background 2s infinite alternate;
+	box-shadow: 0 -200px 100px -120px red inset, 0 0px 20px 5px red;
+	animation: button-switcher-anim 2s infinite alternate;
 }
-@keyframes background {
+@keyframes button-switcher-anim {
 	50% {
 		background: red;
-		box-shadow: 0 -200px 100px -100px green inset;
+		box-shadow: 0 -200px 100px -100px green inset, 0 0px 20px 10px green;
 	}
 }
