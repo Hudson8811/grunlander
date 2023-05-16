@@ -1,13 +1,14 @@
 .dishes 
 	.dishes__container 
 		.dishes__swiper.swiper 
-			.swiper-wrapper 
+			.swiper-wrapper
+			//-
 				.swiper-slide
 					.dishes__dish.dish
 						.dish__front.front-dish
 							.front-dish__container
 								.leafs-full-width
-								.front-dish__card 
+								.front-dish__card
 									.front-dish__images
 										.front-dish__image.front-dish__image-top-left.front-dish__image-flour
 											img(src="images/dishes/front/flour.png", alt="alt")
@@ -25,7 +26,7 @@
 											img(src="images/dishes/front/crackers.png", alt="alt")
 										.front-dish__image.front-dish__image-plate
 											img(src="images/dishes/front/plate.png", alt="alt")
-									.dishes__pagination 
+									.dishes__pagination
 										span.dishes__pagination-active
 										span
 										span
@@ -36,11 +37,11 @@
 										span
 										span
 										span
-									.front-dish__text 
-										|Горчица, молоко и сыр Grünländer вместе? 
+									.front-dish__text
+										|Горчица, молоко и сыр Grünländer вместе?
 										br
 										|Легко! Переключайтесь и увидите
-									.front-dish__button 
+									.front-dish__button
 										.front-dish__switcher.front-switcher.button-switcher-anim
 										.front-dish__button-desc Переключитесь на естественно вкусный рецепт!
 											svg(width='32' height='46' viewBox='0 0 32 46' fill='none' xmlns='http://www.w3.org/2000/svg')
@@ -49,92 +50,92 @@
 									img(src="images/dishes/swiper-button-prev.svg", alt="alt")
 								.swiper-btn.swiper-btn-next
 									img(src="images/dishes/swiper-button-next.svg", alt="alt")
-						.dish__back.back-dish 
+						.dish__back.back-dish
 							.back-dish__container
-								.back-dish__row 
-									.back-dish__img 
+								.back-dish__row
+									.back-dish__img
 										img(src="images/dishes/back/main-img1.png", alt="alt")
-									.back-dish__body 
+									.back-dish__body
 										img(src="images/dishes/back/figs.png", alt="alt").desk
 										.back-dish__title СУФЛЕ ИЗ ГОРЧИЦЫ И СЫРА Grünländer
 											img(src="images/dishes/back/leaf.png", alt="alt").desk
 										.back-dish__text Особенный рецепт для особенного утра. Приготовьте горчичное суфле с сыром Grünländer и попробуйте разнообразить свое утро сменой локации — позавтракайте на балконе или террасе. Насладитесь сливочными нотками сыра и пикантной горчичной остринкой, наблюдая за обстановкой за окном. Вкусный завтрак и хороший настрой на день, что может быть лучше?
-										.back-dish__button 
-											.back-dish__switcher.back-switcher.button-switcher-anim 
+										.back-dish__button
+											.back-dish__switcher.back-switcher.button-switcher-anim
 											.back-dish__button-desc Назад к выбору ингредиентов
 												svg(width='22' height='49' viewBox='0 0 22 49' fill='none' xmlns='http://www.w3.org/2000/svg')
 													path(d='M5.23021 3.82817C6.95205 4.96769 10.4818 7.90726 12.3351 9.75149C20.6642 18.0404 23.2089 27.1754 19.6325 36.4611C19.0819 37.8905 18.9106 38.1947 17.3084 40.6836C15.8968 42.8764 13.9155 45.3233 13.1884 46.0998C12.6588 46.6655 12.3082 47.0274 12.0374 47.2326C11.8943 47.341 11.7426 47.4306 11.5693 47.4775C11.3884 47.5265 11.2288 47.517 11.0946 47.4949C11.0946 47.4949 11.0945 47.4949 11.0945 47.4949L11.0924 47.4945C10.9961 47.4787 10.8866 47.4607 10.7915 47.4335C10.6858 47.4033 10.5578 47.3515 10.4433 47.2439C10.3328 47.14 10.2733 47.02 10.2354 46.9249C10.1989 46.8337 10.1672 46.7248 10.1366 46.6195L10.1366 46.6194L10.0191 46.2152L9.94239 45.9515L10.1303 45.7461L11.2337 44.5397C11.2337 44.5396 11.2337 44.5396 11.2337 44.5396C11.9275 43.7811 13.1645 42.1769 14.3311 40.528C15.5049 38.8689 16.5601 37.2305 16.9217 36.394L17.3858 36.5843L16.9217 36.394C18.7324 32.2048 19.154 28.1219 18.2041 24.116C17.2527 20.1038 14.9167 16.1327 11.1515 12.1907C9.13101 10.0755 6.20778 7.60117 3.54603 5.75563L3.54601 5.75562L3.28825 5.57688C3.37865 6.28584 3.51918 7.40095 3.66646 8.57926C3.88794 10.3509 4.00413 11.3953 3.95971 11.9962C3.9376 12.2954 3.87035 12.6101 3.63892 12.8373C3.4013 13.0706 3.09642 13.1064 2.90098 13.1193M5.23021 3.82817L2.87153 12.6249M5.23021 3.82817C5.82286 3.73528 6.64573 3.62502 7.6412 3.50719C9.57782 3.27793 10.6933 3.135 11.2923 2.94248C11.5908 2.84652 11.8992 2.69825 12.0604 2.39667C12.217 2.1037 12.1593 1.7956 12.121 1.61253L12.121 1.61234C12.0825 1.42887 12.0236 1.23741 11.9072 1.07381C11.7776 0.891617 11.6042 0.781353 11.4098 0.721829L11.4096 0.721782C11.3187 0.693987 11.2216 0.692058 11.1841 0.691313L11.1813 0.691259C11.123 0.690067 11.0539 0.691423 10.9786 0.694329C10.827 0.700181 10.6256 0.713331 10.3845 0.73241C9.90086 0.770677 9.23832 0.834346 8.45341 0.917275C6.88261 1.08324 4.80996 1.32759 2.67378 1.60396L2.67375 1.60397C2.06956 1.68218 1.65758 1.74449 1.37457 1.82948C1.22544 1.87427 1.08538 1.93264 0.960162 2.02048C0.829243 2.11231 0.74003 2.21838 0.671458 2.32465C0.561842 2.49454 0.5289 2.69404 0.516477 2.87702C0.503323 3.07086 0.509896 3.32038 0.532481 3.64098C0.577834 4.2848 0.693818 5.29088 0.893356 6.86993L1.39399 6.80476M5.23021 3.82817L1.39399 6.80476M2.90098 13.1193L2.87153 12.6249M2.90098 13.1193C2.90101 13.1193 2.90104 13.1193 2.90106 13.1193L2.87153 12.6249M2.90098 13.1193C2.88693 13.1202 2.86946 13.1216 2.8497 13.1232C2.78185 13.1284 2.68692 13.1359 2.61011 13.135C2.49206 13.1337 2.32875 13.1163 2.16577 13.0211C2.0028 12.9259 1.89616 12.786 1.82151 12.6425C1.74894 12.5029 1.69368 12.335 1.6455 12.1452C1.47336 11.4671 1.30472 10.1303 0.98095 7.56382C0.952947 7.34185 0.923783 7.11068 0.893358 6.86994L1.39399 6.80476M2.87153 12.6249C2.70647 12.6358 2.57975 12.6551 2.47476 12.6173C2.0932 12.4798 1.99864 11.5888 1.39399 6.80476M2.69103 4.8975C2.69699 4.93939 2.71029 5.0402 2.72959 5.18949L3.20197 4.90808L3.10106 4.83811L2.69103 4.8975ZM2.69103 4.8975L3.10076 4.8379L2.63706 4.51635L2.69103 4.8975Z' fill='white' stroke='white')
 								.back-dish__book.book-back-dish
-									.book-back-dish__img 
+									.book-back-dish__img
 										img(src="images/dishes/back/book.png", alt="alt")
 									.book-back-dish__container
 										.book-back-dish__ingredients
 											img(src="images/dishes/back/leaf.png", alt="alt").book-back-dish__ingredients-leaf-top.mob
 											img(src="images/dishes/back/leaf.png", alt="alt").book-back-dish__ingredients-leaf-bottom.mob
 											img(src="images/dishes/back/figs.png", alt="alt").book-back-dish__ingredients-figs.mob
-											.book-back-dish__ingredients-bg 
+											.book-back-dish__ingredients-bg
 												img(src="images/dishes/back/ingredients.png", alt="alt").desk
 											.book-back-dish__ingredients-title ИНГРЕДИЕНТЫ:
-											ul.book-back-dish__ingredients-ul 
+											ul.book-back-dish__ingredients-ul
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Полутвердый сыр Grünländer 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Полутвердый сыр Grünländer
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 100 г
 												li.book-back-dish__ingredients-li
 													span.book-back-dish__ingredients-name Яйца
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 4 шт
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Молоко 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Молоко
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 300 мл
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Сливочное масло 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Сливочное масло
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 50 г
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Панировочные сухари 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Панировочные сухари
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 25 г
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Мука 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Мука
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 50 г
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Горчица 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Горчица
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 1 ч.л.
 											.book-back-dish__ingredients-order
-												.book-back-dish__ingredients-text-bottom Заказывайте ингредиенты 
+												.book-back-dish__ingredients-text-bottom Заказывайте ингредиенты
 													br
 													|в Яндекс.Лавке с доставкой от 15 минут!
-												.book-back-dish__ingredients-button 
+												.book-back-dish__ingredients-button
 													span Заказать
 										.book-back-dish__cooking
-											.book-back-dish__cooking-bg 
+											.book-back-dish__cooking-bg
 												img(src="images/dishes/back/cooking.png", alt="alt").desk
 												img(src="images/dishes/back/cooking-mob.png", alt="alt").mob
 											.book-back-dish__cooking-title Способ приготовления:
-											ul.book-back-dish__cooking-ul 
-												li.book-back-dish__cooking-li 
+											ul.book-back-dish__cooking-ul
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 1
 													span.book-back-dish__cooking-text Растопите сливочное масло в кастрюле. Затем добавьте к нему муку с горчицей и помешивайте смесь в течение минуты.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 2
 													span.book-back-dish__cooking-text Сделайте огонь поменьше и медленно влейте в кастрюлю молоко. После снова увеличьте огонь и мешайте 10 минут до однородного состояния. Снимите смесь с плиты.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 3
 													span.book-back-dish__cooking-text Пока смесь остывает, отделите желтки от белков. Натрите сыр Grünländer, смешайте с желтками и добавьте их в охлажденную молочную смесь.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 4
 													span.book-back-dish__cooking-text Яичные белки взбейте и тоже добавьте в смесь.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 5
 													span.book-back-dish__cooking-text Смажьте сливочным маслом и посыпьте сухарями форму для выпекания. Разогрейте духовку до 200°C.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 6
 													span.book-back-dish__cooking-text Перелейте молочную смесь в форму для выпекания и ножом отделите ее от краев посуды (так суфле лучше поднимется).
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 7
 													span.book-back-dish__cooking-text Выпекайте суфле 25-30 минут до образования румяной корочки. Готово, можно подавать!
 				.swiper-slide
@@ -142,7 +143,7 @@
 						.dish__front.front-dish
 							.front-dish__container
 								.leafs-full-width
-								.front-dish__card 
+								.front-dish__card
 									.front-dish__images
 										.front-dish__image.front-dish__image-top-left.front-dish__image-flour
 											img(src="images/dishes/front/flour.png", alt="alt")
@@ -160,7 +161,7 @@
 											img(src="images/dishes/front/crackers.png", alt="alt")
 										.front-dish__image.front-dish__image-plate
 											img(src="images/dishes/front/plate.png", alt="alt")
-									.dishes__pagination 
+									.dishes__pagination
 										span
 										span.dishes__pagination-active
 										span
@@ -171,11 +172,11 @@
 										span
 										span
 										span
-									.front-dish__text 
-										|Горчица, молоко и сыр Grünländer вместе? 
+									.front-dish__text
+										|Горчица, молоко и сыр Grünländer вместе?
 										br
 										|Легко! Переключайтесь и увидите
-									.front-dish__button 
+									.front-dish__button
 										.front-dish__switcher.front-switcher.button-switcher-anim
 										.front-dish__button-desc Переключитесь на естественно вкусный рецепт!
 											svg(width='32' height='46' viewBox='0 0 32 46' fill='none' xmlns='http://www.w3.org/2000/svg')
@@ -184,92 +185,92 @@
 									img(src="images/dishes/swiper-button-prev.svg", alt="alt")
 								.swiper-btn.swiper-btn-next
 									img(src="images/dishes/swiper-button-next.svg", alt="alt")
-						.dish__back.back-dish 
+						.dish__back.back-dish
 							.back-dish__container
-								.back-dish__row 
-									.back-dish__img 
+								.back-dish__row
+									.back-dish__img
 										img(src="images/dishes/back/main-img1.png", alt="alt")
-									.back-dish__body 
+									.back-dish__body
 										img(src="images/dishes/back/figs.png", alt="alt").desk
 										.back-dish__title СУФЛЕ ИЗ ГОРЧИЦЫ И СЫРА Grünländer
 											img(src="images/dishes/back/leaf.png", alt="alt").desk
 										.back-dish__text Особенный рецепт для особенного утра. Приготовьте горчичное суфле с сыром Grünländer и попробуйте разнообразить свое утро сменой локации — позавтракайте на балконе или террасе. Насладитесь сливочными нотками сыра и пикантной горчичной остринкой, наблюдая за обстановкой за окном. Вкусный завтрак и хороший настрой на день, что может быть лучше?
-										.back-dish__button 
-											.back-dish__switcher.back-switcher.button-switcher-anim 
+										.back-dish__button
+											.back-dish__switcher.back-switcher.button-switcher-anim
 											.back-dish__button-desc Назад к выбору ингредиентов
 												svg(width='22' height='49' viewBox='0 0 22 49' fill='none' xmlns='http://www.w3.org/2000/svg')
 													path(d='M5.23021 3.82817C6.95205 4.96769 10.4818 7.90726 12.3351 9.75149C20.6642 18.0404 23.2089 27.1754 19.6325 36.4611C19.0819 37.8905 18.9106 38.1947 17.3084 40.6836C15.8968 42.8764 13.9155 45.3233 13.1884 46.0998C12.6588 46.6655 12.3082 47.0274 12.0374 47.2326C11.8943 47.341 11.7426 47.4306 11.5693 47.4775C11.3884 47.5265 11.2288 47.517 11.0946 47.4949C11.0946 47.4949 11.0945 47.4949 11.0945 47.4949L11.0924 47.4945C10.9961 47.4787 10.8866 47.4607 10.7915 47.4335C10.6858 47.4033 10.5578 47.3515 10.4433 47.2439C10.3328 47.14 10.2733 47.02 10.2354 46.9249C10.1989 46.8337 10.1672 46.7248 10.1366 46.6195L10.1366 46.6194L10.0191 46.2152L9.94239 45.9515L10.1303 45.7461L11.2337 44.5397C11.2337 44.5396 11.2337 44.5396 11.2337 44.5396C11.9275 43.7811 13.1645 42.1769 14.3311 40.528C15.5049 38.8689 16.5601 37.2305 16.9217 36.394L17.3858 36.5843L16.9217 36.394C18.7324 32.2048 19.154 28.1219 18.2041 24.116C17.2527 20.1038 14.9167 16.1327 11.1515 12.1907C9.13101 10.0755 6.20778 7.60117 3.54603 5.75563L3.54601 5.75562L3.28825 5.57688C3.37865 6.28584 3.51918 7.40095 3.66646 8.57926C3.88794 10.3509 4.00413 11.3953 3.95971 11.9962C3.9376 12.2954 3.87035 12.6101 3.63892 12.8373C3.4013 13.0706 3.09642 13.1064 2.90098 13.1193M5.23021 3.82817L2.87153 12.6249M5.23021 3.82817C5.82286 3.73528 6.64573 3.62502 7.6412 3.50719C9.57782 3.27793 10.6933 3.135 11.2923 2.94248C11.5908 2.84652 11.8992 2.69825 12.0604 2.39667C12.217 2.1037 12.1593 1.7956 12.121 1.61253L12.121 1.61234C12.0825 1.42887 12.0236 1.23741 11.9072 1.07381C11.7776 0.891617 11.6042 0.781353 11.4098 0.721829L11.4096 0.721782C11.3187 0.693987 11.2216 0.692058 11.1841 0.691313L11.1813 0.691259C11.123 0.690067 11.0539 0.691423 10.9786 0.694329C10.827 0.700181 10.6256 0.713331 10.3845 0.73241C9.90086 0.770677 9.23832 0.834346 8.45341 0.917275C6.88261 1.08324 4.80996 1.32759 2.67378 1.60396L2.67375 1.60397C2.06956 1.68218 1.65758 1.74449 1.37457 1.82948C1.22544 1.87427 1.08538 1.93264 0.960162 2.02048C0.829243 2.11231 0.74003 2.21838 0.671458 2.32465C0.561842 2.49454 0.5289 2.69404 0.516477 2.87702C0.503323 3.07086 0.509896 3.32038 0.532481 3.64098C0.577834 4.2848 0.693818 5.29088 0.893356 6.86993L1.39399 6.80476M5.23021 3.82817L1.39399 6.80476M2.90098 13.1193L2.87153 12.6249M2.90098 13.1193C2.90101 13.1193 2.90104 13.1193 2.90106 13.1193L2.87153 12.6249M2.90098 13.1193C2.88693 13.1202 2.86946 13.1216 2.8497 13.1232C2.78185 13.1284 2.68692 13.1359 2.61011 13.135C2.49206 13.1337 2.32875 13.1163 2.16577 13.0211C2.0028 12.9259 1.89616 12.786 1.82151 12.6425C1.74894 12.5029 1.69368 12.335 1.6455 12.1452C1.47336 11.4671 1.30472 10.1303 0.98095 7.56382C0.952947 7.34185 0.923783 7.11068 0.893358 6.86994L1.39399 6.80476M2.87153 12.6249C2.70647 12.6358 2.57975 12.6551 2.47476 12.6173C2.0932 12.4798 1.99864 11.5888 1.39399 6.80476M2.69103 4.8975C2.69699 4.93939 2.71029 5.0402 2.72959 5.18949L3.20197 4.90808L3.10106 4.83811L2.69103 4.8975ZM2.69103 4.8975L3.10076 4.8379L2.63706 4.51635L2.69103 4.8975Z' fill='white' stroke='white')
 								.back-dish__book.book-back-dish
-									.book-back-dish__img 
+									.book-back-dish__img
 										img(src="images/dishes/back/book.png", alt="alt")
 									.book-back-dish__container
 										.book-back-dish__ingredients
 											img(src="images/dishes/back/leaf.png", alt="alt").book-back-dish__ingredients-leaf-top.mob
 											img(src="images/dishes/back/leaf.png", alt="alt").book-back-dish__ingredients-leaf-bottom.mob
 											img(src="images/dishes/back/figs.png", alt="alt").book-back-dish__ingredients-figs.mob
-											.book-back-dish__ingredients-bg 
+											.book-back-dish__ingredients-bg
 												img(src="images/dishes/back/ingredients.png", alt="alt").desk
 											.book-back-dish__ingredients-title ИНГРЕДИЕНТЫ:
-											ul.book-back-dish__ingredients-ul 
+											ul.book-back-dish__ingredients-ul
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Полутвердый сыр Grünländer 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Полутвердый сыр Grünländer
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 100 г
 												li.book-back-dish__ingredients-li
 													span.book-back-dish__ingredients-name Яйца
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 4 шт
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Молоко 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Молоко
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 300 мл
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Сливочное масло 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Сливочное масло
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 50 г
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Панировочные сухари 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Панировочные сухари
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 25 г
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Мука 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Мука
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 50 г
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Горчица 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Горчица
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 1 ч.л.
 											.book-back-dish__ingredients-order
-												.book-back-dish__ingredients-text-bottom Заказывайте ингредиенты 
+												.book-back-dish__ingredients-text-bottom Заказывайте ингредиенты
 													br
 													|в Яндекс.Лавке с доставкой от 15 минут!
-												.book-back-dish__ingredients-button 
+												.book-back-dish__ingredients-button
 													span Заказать
 										.book-back-dish__cooking
-											.book-back-dish__cooking-bg 
+											.book-back-dish__cooking-bg
 												img(src="images/dishes/back/cooking.png", alt="alt").desk
 												img(src="images/dishes/back/cooking-mob.png", alt="alt").mob
 											.book-back-dish__cooking-title Способ приготовления:
-											ul.book-back-dish__cooking-ul 
-												li.book-back-dish__cooking-li 
+											ul.book-back-dish__cooking-ul
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 1
 													span.book-back-dish__cooking-text Растопите сливочное масло в кастрюле. Затем добавьте к нему муку с горчицей и помешивайте смесь в течение минуты.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 2
 													span.book-back-dish__cooking-text Сделайте огонь поменьше и медленно влейте в кастрюлю молоко. После снова увеличьте огонь и мешайте 10 минут до однородного состояния. Снимите смесь с плиты.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 3
 													span.book-back-dish__cooking-text Пока смесь остывает, отделите желтки от белков. Натрите сыр Grünländer, смешайте с желтками и добавьте их в охлажденную молочную смесь.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 4
 													span.book-back-dish__cooking-text Яичные белки взбейте и тоже добавьте в смесь.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 5
 													span.book-back-dish__cooking-text Смажьте сливочным маслом и посыпьте сухарями форму для выпекания. Разогрейте духовку до 200°C.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 6
 													span.book-back-dish__cooking-text Перелейте молочную смесь в форму для выпекания и ножом отделите ее от краев посуды (так суфле лучше поднимется).
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 7
 													span.book-back-dish__cooking-text Выпекайте суфле 25-30 минут до образования румяной корочки. Готово, можно подавать!
 				.swiper-slide
@@ -277,7 +278,7 @@
 						.dish__front.front-dish
 							.front-dish__container
 								.leafs-full-width
-								.front-dish__card 
+								.front-dish__card
 									.front-dish__images
 										.front-dish__image.front-dish__image-top-left.front-dish__image-flour
 											img(src="images/dishes/front/flour.png", alt="alt")
@@ -295,7 +296,7 @@
 											img(src="images/dishes/front/crackers.png", alt="alt")
 										.front-dish__image.front-dish__image-plate
 											img(src="images/dishes/front/plate.png", alt="alt")
-									.dishes__pagination 
+									.dishes__pagination
 										span
 										span
 										span.dishes__pagination-active
@@ -306,11 +307,11 @@
 										span
 										span
 										span
-									.front-dish__text 
-										|Горчица, молоко и сыр Grünländer вместе? 
+									.front-dish__text
+										|Горчица, молоко и сыр Grünländer вместе?
 										br
 										|Легко! Переключайтесь и увидите
-									.front-dish__button 
+									.front-dish__button
 										.front-dish__switcher.front-switcher.button-switcher-anim
 										.front-dish__button-desc Переключитесь на естественно вкусный рецепт!
 											svg(width='32' height='46' viewBox='0 0 32 46' fill='none' xmlns='http://www.w3.org/2000/svg')
@@ -319,91 +320,91 @@
 									img(src="images/dishes/swiper-button-prev.svg", alt="alt")
 								.swiper-btn.swiper-btn-next
 									img(src="images/dishes/swiper-button-next.svg", alt="alt")
-						.dish__back.back-dish 
+						.dish__back.back-dish
 							.back-dish__container
-								.back-dish__row 
-									.back-dish__img 
+								.back-dish__row
+									.back-dish__img
 										img(src="images/dishes/back/main-img1.png", alt="alt")
-									.back-dish__body 
+									.back-dish__body
 										img(src="images/dishes/back/figs.png", alt="alt").desk
 										.back-dish__title СУФЛЕ ИЗ ГОРЧИЦЫ И СЫРА Grünländer
 											img(src="images/dishes/back/leaf.png", alt="alt").desk
 										.back-dish__text Особенный рецепт для особенного утра. Приготовьте горчичное суфле с сыром Grünländer и попробуйте разнообразить свое утро сменой локации — позавтракайте на балконе или террасе. Насладитесь сливочными нотками сыра и пикантной горчичной остринкой, наблюдая за обстановкой за окном. Вкусный завтрак и хороший настрой на день, что может быть лучше?
-										.back-dish__button 
-											.back-dish__switcher.back-switcher.button-switcher-anim 
+										.back-dish__button
+											.back-dish__switcher.back-switcher.button-switcher-anim
 											.back-dish__button-desc Назад к выбору ингредиентов
 												svg(width='22' height='49' viewBox='0 0 22 49' fill='none' xmlns='http://www.w3.org/2000/svg')
 													path(d='M5.23021 3.82817C6.95205 4.96769 10.4818 7.90726 12.3351 9.75149C20.6642 18.0404 23.2089 27.1754 19.6325 36.4611C19.0819 37.8905 18.9106 38.1947 17.3084 40.6836C15.8968 42.8764 13.9155 45.3233 13.1884 46.0998C12.6588 46.6655 12.3082 47.0274 12.0374 47.2326C11.8943 47.341 11.7426 47.4306 11.5693 47.4775C11.3884 47.5265 11.2288 47.517 11.0946 47.4949C11.0946 47.4949 11.0945 47.4949 11.0945 47.4949L11.0924 47.4945C10.9961 47.4787 10.8866 47.4607 10.7915 47.4335C10.6858 47.4033 10.5578 47.3515 10.4433 47.2439C10.3328 47.14 10.2733 47.02 10.2354 46.9249C10.1989 46.8337 10.1672 46.7248 10.1366 46.6195L10.1366 46.6194L10.0191 46.2152L9.94239 45.9515L10.1303 45.7461L11.2337 44.5397C11.2337 44.5396 11.2337 44.5396 11.2337 44.5396C11.9275 43.7811 13.1645 42.1769 14.3311 40.528C15.5049 38.8689 16.5601 37.2305 16.9217 36.394L17.3858 36.5843L16.9217 36.394C18.7324 32.2048 19.154 28.1219 18.2041 24.116C17.2527 20.1038 14.9167 16.1327 11.1515 12.1907C9.13101 10.0755 6.20778 7.60117 3.54603 5.75563L3.54601 5.75562L3.28825 5.57688C3.37865 6.28584 3.51918 7.40095 3.66646 8.57926C3.88794 10.3509 4.00413 11.3953 3.95971 11.9962C3.9376 12.2954 3.87035 12.6101 3.63892 12.8373C3.4013 13.0706 3.09642 13.1064 2.90098 13.1193M5.23021 3.82817L2.87153 12.6249M5.23021 3.82817C5.82286 3.73528 6.64573 3.62502 7.6412 3.50719C9.57782 3.27793 10.6933 3.135 11.2923 2.94248C11.5908 2.84652 11.8992 2.69825 12.0604 2.39667C12.217 2.1037 12.1593 1.7956 12.121 1.61253L12.121 1.61234C12.0825 1.42887 12.0236 1.23741 11.9072 1.07381C11.7776 0.891617 11.6042 0.781353 11.4098 0.721829L11.4096 0.721782C11.3187 0.693987 11.2216 0.692058 11.1841 0.691313L11.1813 0.691259C11.123 0.690067 11.0539 0.691423 10.9786 0.694329C10.827 0.700181 10.6256 0.713331 10.3845 0.73241C9.90086 0.770677 9.23832 0.834346 8.45341 0.917275C6.88261 1.08324 4.80996 1.32759 2.67378 1.60396L2.67375 1.60397C2.06956 1.68218 1.65758 1.74449 1.37457 1.82948C1.22544 1.87427 1.08538 1.93264 0.960162 2.02048C0.829243 2.11231 0.74003 2.21838 0.671458 2.32465C0.561842 2.49454 0.5289 2.69404 0.516477 2.87702C0.503323 3.07086 0.509896 3.32038 0.532481 3.64098C0.577834 4.2848 0.693818 5.29088 0.893356 6.86993L1.39399 6.80476M5.23021 3.82817L1.39399 6.80476M2.90098 13.1193L2.87153 12.6249M2.90098 13.1193C2.90101 13.1193 2.90104 13.1193 2.90106 13.1193L2.87153 12.6249M2.90098 13.1193C2.88693 13.1202 2.86946 13.1216 2.8497 13.1232C2.78185 13.1284 2.68692 13.1359 2.61011 13.135C2.49206 13.1337 2.32875 13.1163 2.16577 13.0211C2.0028 12.9259 1.89616 12.786 1.82151 12.6425C1.74894 12.5029 1.69368 12.335 1.6455 12.1452C1.47336 11.4671 1.30472 10.1303 0.98095 7.56382C0.952947 7.34185 0.923783 7.11068 0.893358 6.86994L1.39399 6.80476M2.87153 12.6249C2.70647 12.6358 2.57975 12.6551 2.47476 12.6173C2.0932 12.4798 1.99864 11.5888 1.39399 6.80476M2.69103 4.8975C2.69699 4.93939 2.71029 5.0402 2.72959 5.18949L3.20197 4.90808L3.10106 4.83811L2.69103 4.8975ZM2.69103 4.8975L3.10076 4.8379L2.63706 4.51635L2.69103 4.8975Z' fill='white' stroke='white')
 								.back-dish__book.book-back-dish
-									.book-back-dish__img 
+									.book-back-dish__img
 										img(src="images/dishes/back/book.png", alt="alt")
 									.book-back-dish__container
 										.book-back-dish__ingredients
 											img(src="images/dishes/back/leaf.png", alt="alt").book-back-dish__ingredients-leaf-top.mob
 											img(src="images/dishes/back/leaf.png", alt="alt").book-back-dish__ingredients-leaf-bottom.mob
 											img(src="images/dishes/back/figs.png", alt="alt").book-back-dish__ingredients-figs.mob
-											.book-back-dish__ingredients-bg 
+											.book-back-dish__ingredients-bg
 												img(src="images/dishes/back/ingredients.png", alt="alt").desk
 											.book-back-dish__ingredients-title ИНГРЕДИЕНТЫ:
-											ul.book-back-dish__ingredients-ul 
+											ul.book-back-dish__ingredients-ul
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Полутвердый сыр Grünländer 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Полутвердый сыр Grünländer
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 100 г
 												li.book-back-dish__ingredients-li
 													span.book-back-dish__ingredients-name Яйца
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 4 шт
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Молоко 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Молоко
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 300 мл
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Сливочное масло 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Сливочное масло
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 50 г
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Панировочные сухари 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Панировочные сухари
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 25 г
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Мука 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Мука
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 50 г
 												li.book-back-dish__ingredients-li
-													span.book-back-dish__ingredients-name Горчица 
-													span.book-back-dish__ingredients-dotes 
+													span.book-back-dish__ingredients-name Горчица
+													span.book-back-dish__ingredients-dotes
 													span.book-back-dish__ingredients-amount 1 ч.л.
 											.book-back-dish__ingredients-order
-												.book-back-dish__ingredients-text-bottom Заказывайте ингредиенты 
+												.book-back-dish__ingredients-text-bottom Заказывайте ингредиенты
 													br
 													|в Яндекс.Лавке с доставкой от 15 минут!
-												.book-back-dish__ingredients-button 
+												.book-back-dish__ingredients-button
 													span Заказать
 										.book-back-dish__cooking
-											.book-back-dish__cooking-bg 
+											.book-back-dish__cooking-bg
 												img(src="images/dishes/back/cooking.png", alt="alt").desk
 												img(src="images/dishes/back/cooking-mob.png", alt="alt").mob
 											.book-back-dish__cooking-title Способ приготовления:
-											ul.book-back-dish__cooking-ul 
-												li.book-back-dish__cooking-li 
+											ul.book-back-dish__cooking-ul
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 1
 													span.book-back-dish__cooking-text Растопите сливочное масло в кастрюле. Затем добавьте к нему муку с горчицей и помешивайте смесь в течение минуты.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 2
 													span.book-back-dish__cooking-text Сделайте огонь поменьше и медленно влейте в кастрюлю молоко. После снова увеличьте огонь и мешайте 10 минут до однородного состояния. Снимите смесь с плиты.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 3
 													span.book-back-dish__cooking-text Пока смесь остывает, отделите желтки от белков. Натрите сыр Grünländer, смешайте с желтками и добавьте их в охлажденную молочную смесь.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 4
 													span.book-back-dish__cooking-text Яичные белки взбейте и тоже добавьте в смесь.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 5
 													span.book-back-dish__cooking-text Смажьте сливочным маслом и посыпьте сухарями форму для выпекания. Разогрейте духовку до 200°C.
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 6
 													span.book-back-dish__cooking-text Перелейте молочную смесь в форму для выпекания и ножом отделите ее от краев посуды (так суфле лучше поднимется).
-												li.book-back-dish__cooking-li 
+												li.book-back-dish__cooking-li
 													span.book-back-dish__cooking-num 7
 													span.book-back-dish__cooking-text Выпекайте суфле 25-30 минут до образования румяной корочки. Готово, можно подавать!
