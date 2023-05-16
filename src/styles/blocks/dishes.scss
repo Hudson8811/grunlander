@@ -28,7 +28,7 @@
 	&__back {
 		padding-top: 30px;
 		@media (max-width: 1440px){
-			padding-top: 0;
+			padding-top: 2.08vw;
 		}
 	}
 }
@@ -541,12 +541,41 @@
 	}
 	&__img {
 		flex: 1 1 auto;
-		img {
-			width: 640px;
-			height: 660px;
+		transform: rotate(-10deg);
+		padding-left: 100px;
+		position: relative;
+		@media (max-width: 1440px){
+			padding-left: 6.94vw;
+		}
+		@media (max-width: 768px){
+			padding-left: 0;
+		}
+		&::before{
+			content:'';
+			position: absolute;
+			width: 164px;
+			height: 120px;
+			top: -40px;
+			left: 0;
+			background: url('../images/dishes/back/lines.png') 0 0 / 100% 100% no-repeat;
 			@media (max-width: 1440px){
-				width: 44.44vw;
-				height: 45.83vw;
+				width: 11.39vw;
+				height: 8.33vw;
+				top: -2.78vw;
+			}
+			@media (max-width: 768px){
+				width: 16.39vw;
+				height: 14.33vw;
+				top: -7vw;
+				left: -10vw;
+			}
+		}
+		img {
+			width: 480px;
+			height: 580px;
+			@media (max-width: 1440px){
+				width: 33.33vw;
+				height: 40.28vw;
 			}
 			@media (max-width: 768px){
 				width: 57vw;
