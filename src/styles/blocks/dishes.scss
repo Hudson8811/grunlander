@@ -68,6 +68,7 @@
 			border-radius: 3.06vw;
 		}
 	}
+
 	&__images {
 		opacity: 1;
 		width: 980px;
@@ -86,7 +87,7 @@
 		@media (max-width: 768px){
 			top: 60%;
 			width: 95vw;
-			height: 102vw;
+			height: 110vw;
 		}
 		&-row {
 			display: flex;
@@ -204,6 +205,18 @@
 				height: 35vw;
 			}
 		}
+		&-photocard2 {
+			width: 310px;
+			height: 310px;
+			@media (max-width: 1440px){
+				width: 21.53vw;
+				height: 21.53vw;
+			}
+			@media (max-width: 768px){
+				width: 35vw;
+				height: 35vw;
+			}
+		}
 		&-crackers {
 			width: 270px;
 			height: 280px;
@@ -217,8 +230,411 @@
 			}
 		}
 
+		&-oil {
+			width: 307px;
+			height: 245px;
+			@media (max-width: 1440px){
+				width: 21.32vw;
+				height: 17.01vw;
+			}
+			@media (max-width: 768px){
+				width: 30vw;
+				height: 27vw;
+			}
+		}
+		&-garlic {
+			width: 280px;
+			height: 265px;
+			@media (max-width: 1440px){
+				width: 19.44vw;
+				height: 18.40vw;
+			}
+			@media (max-width: 768px){
+				width: 29vw;
+				height: 28vw;
+			}
+		}
+		&-onion {
+			width: 300px;
+			height: 225px;
+			@media (max-width: 1440px){
+				width: 18.92vw;
+				height: 13.71vw;
+			}
+			@media (max-width: 768px){
+				width: 30vw;
+				height: 25vw;
+			}
+		}
+		&-thyme {
+			width: 300px;
+			height: 305px;
+			@media (max-width: 1440px){
+				width: 20.18vw;
+				height: 20.88vw;
+			}
+			@media (max-width: 768px){
+				width: 30vw;
+				height: 30vw;
+			}
+		}
+		&-cream {
+			width: 225px;
+			height: 235px;
+			@media (max-width: 1440px){
+				width: 15.63vw;
+				height: 16.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-mushrooms {
+			width: 295px;
+			height: 250px;
+			@media (max-width: 1440px){
+				width: 20.49vw;
+				height: 17.36vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-cherry {
+			width: 225px;
+			height: 265px;
+			@media (max-width: 1440px){
+				width: 15.63vw;
+				height: 18.40vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-sage {
+			width: 150px;
+			height: 170px;
+			@media (max-width: 1440px){
+				width: 15.63vw;
+				height: 16.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-vinegar {
+			width: 290px;
+			height: 290px;
+			@media (max-width: 1440px){
+				width: 20.63vw;
+				height: 18.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-razmarin {
+			top: 10%!important;
+			width: 330px;
+			height: 350px;
+			@media (max-width: 1440px){
+				width: 20.63vw;
+				height: 18.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-minced {
+			width: 260px;
+			height: 260px;
+			@media (max-width: 1440px){
+				width: 20.63vw;
+				height: 20.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-nutmeg {
+			width: 280px;
+			height: 290px;
+			@media (max-width: 1440px){
+				width: 20.63vw;
+				height: 18.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-zucchini {
+			top: 70%!important;
+			width: 360px;
+			height: 320px;
+			@media (max-width: 1440px){
+				width: 28.63vw;
+				height: 23.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-pear {
+			width: 350px;
+			height: 330px;
+			@media (max-width: 1440px){
+				width: 22.63vw;
+				height: 20.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-potato {
+			width: 260px;
+			height: 360px;
+			@media (max-width: 1440px){
+				width: 20.63vw;
+				height: 26.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-parsley {
+			width: 280px;
+			height: 290px;
+			@media (max-width: 1440px){
+				width: 20.63vw;
+				height: 18.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-sourcream {
+			top: 70%!important;
+			width: 260px;
+			height: 220px;
+			@media (max-width: 1440px){
+				width: 20.63vw;
+				height: 18.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-bayleaf {
+			top: 18%!important;
+			left: 5%!important;
+			width: 200px;
+			height: 200px;
+			@media (max-width: 1440px){
+				width: 15.63vw;
+				height: 15.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-cabbage {
+			bottom: 15%!important;
+			width: 280px;
+			height: 290px;
+			@media (max-width: 1440px){
+				width: 20.63vw;
+				height: 18.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-Lemon {
+			top: 10%!important;
+			width: 260px;
+			height: 220px;
+			@media (max-width: 1440px){
+				width: 20.63vw;
+				height: 18.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-zucchinislice {
+			width: 300px;
+			height: 300px;
+			@media (max-width: 1440px){
+				width: 22.63vw;
+				height: 22.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-oregano {
+			bottom: 15%!important;
+			width: 310px;
+			height: 310px;
+			@media (max-width: 1440px){
+				width: 22.63vw;
+				height: 20.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-grape {
+			top: 10%!important;	
+			width: 320px;
+			height: 200px;
+			@media (max-width: 1440px){
+				width: 15.63vw;
+				height: 12.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 20vw;
+			}
+		}
+		&-hazelnuts {
+			width: 250px;
+			height: 150px;
+			@media (max-width: 1440px){
+				width: 16.63vw;
+				height: 12.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-apple {
+			width: 230px;
+			height: 200px;
+			@media (max-width: 1440px){
+				width: 15.63vw;
+				height: 14.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-bacon {
+			width: 250px;
+			height: 250px;
+			@media (max-width: 1440px){
+				width: 18.63vw;
+				height: 18.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-figs {
+			width: 270px;
+			height: 270px;
+			@media (max-width: 1440px){
+				width: 18.63vw;
+				height: 16.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+		&-cale {
+			width: 400px;
+			height: 350px;
+			@media (max-width: 1440px){
+				width: 25.63vw;
+				height: 25.32vw;
+			}
+			@media (max-width: 768px){
+				width: 35vw;
+				height: 30vw;
+			}
+		}
+		&-pasta {
+			width: 300px;
+			height: 450px;
+			@media (max-width: 1440px){
+				width: 18.63vw;
+				height: 26.32vw;
+			}
+			@media (max-width: 768px){
+				width: 35vw;
+				height: 40vw;
+			}
+		}
+		&-chili {
+			top: 20%!important;
+			width: 270px;
+			height: 270px;
+			@media (max-width: 1440px){
+				width: 20.63vw;
+				height: 20.32vw;
+			}
+			@media (max-width: 768px){
+				width: 28vw;
+				height: 25vw;
+			}
+		}
+		&-toaster {
+			width: 370px;
+			height: 445px;
+			@media (max-width: 1440px){
+				width: 25.63vw;
+				height: 28.32vw;
+			}
+			@media (max-width: 768px){
+				width: 40vw;
+				height: 45vw;
+			}
+		}
+		&-corn {
+			width: 300px;
+			height: 300px;
+			@media (max-width: 1440px){
+				width: 18.63vw;
+				height: 26.32vw;
+			}
+			@media (max-width: 768px){
+				width: 25vw;
+				height: 25vw;
+			}
+		}
+
+
+		&-photocard9 {
+			right: 10%!important;
+			bottom: 5%!important;
+		}
+
+
+
 		&-top-left {
-			top: 8%;
+			top: 5%;
 			left: 0;
 		}
 		&-top-center {
@@ -232,7 +648,7 @@
 		}
 		
 		&-center-left {
-			top: 50%;
+			top: 55%;
 			left: 0;
 			transform: translate(0, -50%);
 			@media (max-width: 768px){
@@ -249,8 +665,8 @@
 		}
 		
 		&-bottom-left {
-			left: 0;
-			bottom: 8%;
+			left: 5%;
+			bottom: 0%;
 			@media (max-width: 768px){
 				left: 12%;
 				bottom: -10%;
@@ -258,9 +674,17 @@
 		}
 		&-bottom-right {
 			right: 0;
-			bottom: 5%;
+			bottom: 10%;
 			@media (max-width: 768px){
 				right: 5%;
+			}
+		}
+		&-bottom-right1 {
+			right: 14%;
+			bottom: 0%;
+			@media (max-width: 768px){
+				right: 10%;
+				bottom: -10%;
 			}
 		}
 	}
@@ -479,42 +903,62 @@
 		}
 
 		.front-dish__image-top-left {
-			top: 100%;
-			left: 50%;
-			transform: translate(-50%, -100%);
+			top: 100%!important;
+			left: 50%!important;
+			transform: translate(-50%, -100%)!important;
 		}
 		.front-dish__image-top-center {
-			top: 100%;
-			left: 50%;
-			transform: translate(-50%, -100%);
+			top: 100%!important;
+			left: 50%!important;
+			transform: translate(-50%, -100%)!important;
 		}
 		.front-dish__image-top-right {
-			top: 100%;
-			right: 50%;
-			transform: translate(50%, -100%);
+			top: 100%!important;
+			right: 50%!important;
+			transform: translate(50%, -100%)!important;
 		}
 		
 		.front-dish__image-center-left {
-			top: 100%;
-			left: 50%;
-			transform: translate(-50%, -100%);
+			top: 100%!important;
+			left: 50%!important;
+			transform: translate(-50%, -100%)!important;
 		}
 		.front-dish__image-center-right {
-			top: 100%;
-			right: 50%;
-			transform: translate(50%, -100%);
+			top: 100%!important;
+			right: 50%!important;
+			transform: translate(50%, -100%)!important;
 		}
 		
 		.front-dish__image-bottom-left {
-			left: 50%;
-			transform: translate(-50%, 0%);
-			bottom: 0;
+			left: 50%!important;
+			transform: translate(-50%, 0%)!important;
+			bottom: 0!important;
 		}
 		.front-dish__image-bottom-right {
-			right: 50%;
-			transform: translate(50%, 0%);
-			bottom: 0;
+			right: 50%!important;
+			transform: translate(50%, 0%)!important;
+			bottom: 0!important;
 		}
+		.front-dish__image-bottom-right1 {
+			right: 50%!important;
+			transform: translate(50%, 0%)!important;
+			bottom: 0!important;
+		}
+	}
+}
+.dishes-ingredient9 {
+	.front-dish__image-top-left {
+		top: 15%!important;
+	}
+}
+.dishes-ingredient5 {
+	.front-dish__image-top-left {
+		top: 15%!important;
+	}
+}
+.dishes-ingredient1 {
+	.front-dish__image-top-left {
+		top: 10%!important;
 	}
 }
 .front-switcher {
@@ -586,9 +1030,11 @@
 	&__body {
 		flex: 0 1 60%;
 		padding-top: 110px;
+		padding-bottom: 80px;
 		position: relative;
 		@media (max-width: 1440px){
 			padding-top: 7.64vw;
+			padding-bottom: 6.17vw;
 		}
 		@media (max-width: 768px){
 			display: flex;
