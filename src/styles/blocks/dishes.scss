@@ -255,7 +255,7 @@
 			}
 		}
 		&-onion {
-			width: 300px;
+			width: 350px;
 			height: 225px;
 			@media (max-width: 1440px){
 				width: 18.92vw;
@@ -303,8 +303,8 @@
 			}
 		}
 		&-cherry {
-			width: 225px;
-			height: 265px;
+			width: 255px;
+			height: 325px;
 			@media (max-width: 1440px){
 				width: 15.63vw;
 				height: 18.40vw;
@@ -340,8 +340,8 @@
 		}
 		&-razmarin {
 			top: 10%!important;
-			width: 330px;
-			height: 350px;
+			width: 270px;
+			height: 230px;
 			@media (max-width: 1440px){
 				width: 20.63vw;
 				height: 18.32vw;
@@ -377,7 +377,7 @@
 		}
 		&-zucchini {
 			top: 70%!important;
-			width: 360px;
+			width: 420px;
 			height: 320px;
 			@media (max-width: 1440px){
 				width: 28.63vw;
@@ -413,10 +413,10 @@
 			}
 		}
 		&-parsley {
-			width: 280px;
-			height: 290px;
+			width: 230px;
+			height: 250px;
 			@media (max-width: 1440px){
-				width: 20.63vw;
+				width: 16.63vw;
 				height: 18.32vw;
 			}
 			@media (max-width: 768px){
@@ -425,11 +425,11 @@
 			}
 		}
 		&-sourcream {
-			top: 70%!important;
-			width: 260px;
-			height: 220px;
+			top: 60%!important;
+			width: 290px;
+			height: 290px;
 			@media (max-width: 1440px){
-				width: 20.63vw;
+				width: 18.63vw;
 				height: 18.32vw;
 			}
 			@media (max-width: 768px){
@@ -516,8 +516,8 @@
 			}
 		}
 		&-hazelnuts {
-			width: 250px;
-			height: 150px;
+			width: 200px;
+			height: 100px;
 			@media (max-width: 1440px){
 				width: 16.63vw;
 				height: 12.32vw;
@@ -528,10 +528,10 @@
 			}
 		}
 		&-apple {
-			width: 230px;
-			height: 200px;
+			width: 170px;
+			height: 170px;
 			@media (max-width: 1440px){
-				width: 15.63vw;
+				width: 14.63vw;
 				height: 14.32vw;
 			}
 			@media (max-width: 768px){
@@ -552,8 +552,8 @@
 			}
 		}
 		&-figs {
-			width: 270px;
-			height: 270px;
+			width: 210px;
+			height: 210px;
 			@media (max-width: 1440px){
 				width: 18.63vw;
 				height: 16.32vw;
@@ -946,9 +946,171 @@
 		}
 	}
 }
-.dishes-ingredient9 {
+.dishes-ingredient1 {
+	.front-dish__image-top-left {
+		top: 10%!important;
+	}
+}
+.dishes-ingredient2 {
 	.front-dish__image-top-left {
 		top: 15%!important;
+		@media (max-width: 768px){
+			top: 10%!important;
+		}
+	}
+	.front-dish__image-top-right {
+		top: 5%;
+		right: 0;
+	}
+	
+	.front-dish__image-center-left {
+		top: 60%;
+		left: -15%;
+		transform: translate(0, -50%);
+		@media (max-width: 768px){
+			top: 70%;
+			left: 0;
+		}
+	}
+	.front-dish__image-center-right {
+		top: 50%;
+		right: 0;
+		transform: translate(0, -50%);
+		@media (max-width: 768px){
+			top: 60%;
+		}
+	}
+	
+	.front-dish__image-bottom-left {
+		left: 5%;
+		bottom: 0%;
+		@media (max-width: 768px){
+			left: 12%;
+			bottom: -10%;
+		}
+	}
+	.front-dish__image-bottom-right {
+		right: 0;
+		bottom: 10%;
+		@media (max-width: 768px){
+			right: 5%;
+		}
+	}
+	.front-dish__image-bottom-right1 {
+		right: 14%;
+		bottom: 0%;
+		@media (max-width: 768px){
+			right: 10%;
+			bottom: -10%;
+		}
+	}
+}
+.dishes-ingredient3 {
+	.front-dish__image-top-left {
+		top: 5%!important;
+	}
+	.front-dish__image-top-right {
+		top: 5%;
+		right: 0;
+	}
+	
+	.front-dish__image-center-left {
+		top: 60%;
+		left: -5%;
+		transform: translate(0, -50%);
+		@media (max-width: 768px){
+			top: 70%;
+			left: 0;
+		}
+	}
+	.front-dish__image-center-right {
+		top: 50%;
+		right: 0;
+		transform: translate(0, -50%);
+		@media (max-width: 768px){
+			top: 60%;
+			right: -4%!important;
+		}
+	}
+	
+	.front-dish__image-bottom-left {
+		left: 15%;
+		bottom: 7%;
+		@media (max-width: 768px){
+			left: 12%;
+			bottom: -10%;
+		}
+	}
+	.front-dish__image-bottom-right {
+		right: 0;
+		bottom: 10%;
+		@media (max-width: 768px){
+			right: 5%;
+		}
+	}
+	.front-dish__image-bottom-right1 {
+		right: 14%;
+		bottom: 0%;
+		@media (max-width: 768px){
+			right: 10%;
+			bottom: -10%;
+		}
+	}
+}
+.dishes-ingredient4 {
+	.front-dish__image-top-left {
+		top: 15%!important;
+		left: 5%;
+		@media (max-width: 768px){
+			left: 0;
+		}
+	}
+	.front-dish__image-top-right {
+		top: 15%;
+		right: 5%;
+	}
+	
+	.front-dish__image-center-left {
+		top: 55%;
+		left: -5%;
+		transform: translate(0, -50%);
+		@media (max-width: 768px){
+			top: 70%;
+			left: 0;
+		}
+	}
+	.front-dish__image-center-right {
+		top: 50%;
+		right: -8%;
+		transform: translate(0, -50%);
+		@media (max-width: 768px){
+			top: 60%;
+			right: 0;
+		}
+	}
+	
+	.front-dish__image-bottom-left {
+		left: 12%;
+		bottom: 0%;
+		@media (max-width: 768px){
+			left: 12%;
+			bottom: -10%;
+		}
+	}
+	.front-dish__image-bottom-right {
+		right: 0;
+		bottom: 10%;
+		@media (max-width: 768px){
+			right: 5%;
+		}
+	}
+	.front-dish__image-bottom-right1 {
+		right: 14%;
+		bottom: 0%;
+		@media (max-width: 768px){
+			right: 10%;
+			bottom: -10%;
+		}
 	}
 }
 .dishes-ingredient5 {
@@ -956,9 +1118,219 @@
 		top: 15%!important;
 	}
 }
-.dishes-ingredient1 {
+.dishes-ingredient6 {
+	.front-dish__image-top-left {
+		top: 18%!important;
+		left: 8%!important;
+		@media (max-width: 768px){
+			left: 0!important;
+		}
+	}
+	.front-dish__image-top-right {
+		top: 15%;
+		right: 2%;
+	}
+	
+	.front-dish__image-center-left {
+		top: 55%;
+		left: -5%;
+		transform: translate(0, -50%);
+		@media (max-width: 768px){
+			top: 55%;
+			left: 0;
+		}
+	}
+	.front-dish__image-center-right {
+		top: 50%;
+		right: -8%;
+		transform: translate(0, -50%);
+		@media (max-width: 768px){
+			top: 50%;
+			right: 0;
+		}
+	}
+	
+	.front-dish__image-bottom-left {
+		left: 3%;
+		bottom: 0%;
+		@media (max-width: 768px){
+			left: 3%;
+			bottom: 0%;
+		}
+	}
+	.front-dish__image-bottom-right {
+		right: 0;
+		bottom: 10%;
+		@media (max-width: 768px){
+			right: 5%;
+		}
+	}
+	.front-dish__image-bottom-right1 {
+		right: 14%;
+		bottom: 0%;
+		@media (max-width: 768px){
+			right: 10%;
+			bottom: 0%;
+		}
+	}
+}
+.dishes-ingredient7 {
+	.front-dish__image-top-left {
+		top: 16%!important;
+		left: 3%!important;
+		@media (max-width: 768px){
+			left: 0;
+		}
+	}
+	.front-dish__image-top-right {
+		top: 15%;
+		right: 2%;
+	}
+	
+	.front-dish__image-center-left {
+		top: 55%;
+		left: -5%;
+		transform: translate(0, -50%);
+		@media (max-width: 768px){
+			top: 55%;
+			left: 0;
+		}
+	}
+	.front-dish__image-center-right {
+		top: 50%;
+		right: -8%;
+		transform: translate(0, -50%);
+		@media (max-width: 768px){
+			top: 50%;
+			right: 0;
+		}
+	}
+	
+	.front-dish__image-bottom-left {
+		left: 3%;
+		bottom: 10%;
+		@media (max-width: 768px){
+			left: 3%;
+			bottom: 0%;
+		}
+	}
+	.front-dish__image-bottom-right {
+		right: 0;
+		bottom: 10%;
+		@media (max-width: 768px){
+			right: 5%;
+		}
+	}
+	.front-dish__image-bottom-right1 {
+		right: 14%;
+		bottom: 0%;
+		@media (max-width: 768px){
+			right: 10%;
+			bottom: -10%;
+		}
+	}
+}
+.dishes-ingredient8 {
 	.front-dish__image-top-left {
 		top: 10%!important;
+		left: 0%!important;
+		@media (max-width: 768px){
+			top: 6%!important;
+			left: 0;
+		}
+	}
+	.front-dish__image-top-right {
+		top: 15%!important;
+		right: 2%;
+	}
+	
+	.front-dish__image-center-left {
+		top: 55%;
+		left: -2%;
+		transform: translate(0, -50%);
+		@media (max-width: 768px){
+			top: 55%;
+			left: 0;
+		}
+	}
+	.front-dish__image-center-right {
+		top: 50%;
+		right: 2%;
+		transform: translate(0, -50%);
+		@media (max-width: 768px){
+			top: 50%;
+			right: 0;
+		}
+	}
+	
+	.front-dish__image-bottom-left {
+		left: 5%;
+		bottom: 12%;
+		@media (max-width: 768px){
+			left: 3%;
+			bottom: 10%;
+		}
+	}
+	.front-dish__image-bottom-right {
+		right: 5%!important;
+		bottom: 12%!important;
+		@media (max-width: 768px){
+			right: 5%;
+		}
+	}
+	.front-dish__image-bottom-right1 {
+		right: 14%;
+		bottom: 0%;
+		@media (max-width: 768px){
+			right: 10%;
+			bottom: -10%;
+		}
+	}
+}
+.dishes-ingredient9 {
+	.front-dish__image-top-left {
+		top: 15%!important;
+	}
+	.front-dish__image-top-center {
+		left: 45%!important;
+	}
+	.front-dish__image-top-right {
+		top: 7%!important;
+		right: 17%;
+		@media (max-width: 768px){
+			top: 4%!important;
+			right: 15%;
+		}
+	}
+	.front-dish__image-center-right {
+		top: 40%!important;
+		right: 0%;
+		@media (max-width: 768px){
+			top: 55%!important;
+			right: -2%;
+		}
+	}
+}
+.dishes-ingredient10 {
+	.front-dish__image-top-left {
+		top: 15%!important;
+	}
+	.front-dish__image-top-right {
+	}
+	.front-dish__image-center-right {
+		top: 40%!important;
+		right: 0%;
+	}
+	.front-dish__image-bottom-left {
+		top: 55%!important;
+		right: 0%;
+		@media (max-width: 768px){
+			left: -2%!important;
+		}
+	}
+	.front-dish__image-bottom-right {
+		top: 53%!important;
+		right: 0%;
 	}
 }
 .front-switcher {
