@@ -11,7 +11,8 @@ $(document).ready(function() {
         fadeEffect: {
             crossFade: true
         },
-        loop: true
+        loop: true,
+        speed: 800
     });
 
     $(document).on( "click", ".front-switcher", function() {
