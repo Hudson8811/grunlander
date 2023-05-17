@@ -7,6 +7,11 @@ $(document).ready(function() {
             nextEl: ".dishes__swiper .swiper-btn-next",
         },
         allowTouchMove: false,
+        effect: 'fade',
+        fadeEffect: {
+            crossFade: true
+        },
+        loop: true
     });
 
     $(document).on( "click", ".front-switcher", function() {
