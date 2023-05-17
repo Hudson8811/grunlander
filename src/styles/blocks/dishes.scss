@@ -116,512 +116,398 @@
 		opacity: 1;
 		img {
 			width: 100%;
-			height: 100%;
+			display: block;
 		}
 		&-plate {
 			left: 50%;
 			bottom: 0;
 			transform: translate(-50%, 0);
 			width: 400px;
-			height: 400px;
 			@media (max-width: 1440px){
 				width: 27.78vw;
-				height: 27.78vw;
 			}
 			@media (max-width: 768px){
 				width: 40vw;
-				height: 40vw;
 			}
 		}
 		&-flour {
 			width: 265px;
-			height: 240px;
 			@media (max-width: 1440px){
 				width: 18.40vw;
-				height: 16.67vw;
 			}
 			@media (max-width: 768px){
 				width: 27.40vw;
-				height: 25.67vw;
 			}
 		}
 		&-pack {
 			width: 350px;
-			height: 320px;
 			@media (max-width: 1440px){
 				width: 24.31vw;
-				height: 22.22vw;
 			}
 			@media (max-width: 768px){
 				width: 38vw;
-				height: 35vw;
 			}
 		}
 		&-butter {
 			width: 220px;
-			height: 240px;
 			@media (max-width: 1440px){
 				width: 15.28vw;
-				height: 16.67vw;
 			}
 			@media (max-width: 768px){
 				width: 22vw;
-				height: 24vw;
 			}
 		}
 		&-milk {
 			width: 260px;
-			height: 230px;
 			@media (max-width: 1440px){
 				width: 18.06vw;
-				height: 15.97vw;
 			}
 			@media (max-width: 768px){
 				width: 31vw;
-				height: 28vw;
 			}
 		}
 		&-mustard {
 			width: 200px;
-			height: 220px;
 			@media (max-width: 1440px){
 				width: 13.89vw;
-				height: 15.28vw;
 			}
 			@media (max-width: 768px){
 				width: 20vw;
-				height: 20vw;
 			}
 		}
 		&-photocard {
 			width: 310px;
-			height: 310px;
 			@media (max-width: 1440px){
 				width: 21.53vw;
-				height: 21.53vw;
 			}
 			@media (max-width: 768px){
 				width: 35vw;
-				height: 35vw;
 			}
 		}
 		&-photocard2 {
 			width: 310px;
-			height: 310px;
 			@media (max-width: 1440px){
 				width: 21.53vw;
-				height: 21.53vw;
 			}
 			@media (max-width: 768px){
 				width: 35vw;
-				height: 35vw;
 			}
 		}
 		&-crackers {
 			width: 270px;
-			height: 280px;
 			@media (max-width: 1440px){
 				width: 18.75vw;
-				height: 19.44vw;
 			}
 			@media (max-width: 768px){
 				width: 24vw;
-				height: 25vw;
 			}
 		}
 
 		&-oil {
 			width: 307px;
-			height: 245px;
 			@media (max-width: 1440px){
 				width: 21.32vw;
-				height: 17.01vw;
 			}
 			@media (max-width: 768px){
 				width: 30vw;
-				height: 27vw;
 			}
 		}
 		&-garlic {
 			width: 280px;
-			height: 265px;
 			@media (max-width: 1440px){
 				width: 19.44vw;
-				height: 18.40vw;
 			}
 			@media (max-width: 768px){
 				width: 29vw;
-				height: 28vw;
+			}
+		}
+		&-garlic2 {
+			width: 248px;
+			@media (max-width: 1440px){
+				width: 17.22vw;
+			}
+			@media (max-width: 768px){
+				width: 25.68vw;
 			}
 		}
 		&-onion {
 			width: 350px;
-			height: 225px;
 			@media (max-width: 1440px){
 				width: 18.92vw;
-				height: 13.71vw;
 			}
 			@media (max-width: 768px){
 				width: 30vw;
-				height: 25vw;
 			}
 		}
 		&-thyme {
 			width: 300px;
-			height: 305px;
 			@media (max-width: 1440px){
 				width: 20.18vw;
-				height: 20.88vw;
 			}
 			@media (max-width: 768px){
 				width: 30vw;
-				height: 30vw;
 			}
 		}
 		&-cream {
 			width: 225px;
-			height: 235px;
 			@media (max-width: 1440px){
 				width: 15.63vw;
-				height: 16.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-mushrooms {
 			width: 295px;
-			height: 250px;
 			@media (max-width: 1440px){
 				width: 20.49vw;
-				height: 17.36vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-cherry {
 			width: 255px;
-			height: 325px;
 			@media (max-width: 1440px){
 				width: 15.63vw;
-				height: 18.40vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-sage {
 			width: 150px;
-			height: 170px;
 			@media (max-width: 1440px){
 				width: 15.63vw;
-				height: 16.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-vinegar {
 			width: 290px;
-			height: 290px;
 			@media (max-width: 1440px){
 				width: 20.63vw;
-				height: 18.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-razmarin {
 			top: 10%!important;
 			width: 270px;
-			height: 230px;
 			@media (max-width: 1440px){
 				width: 20.63vw;
-				height: 18.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-minced {
 			width: 260px;
-			height: 260px;
 			@media (max-width: 1440px){
 				width: 20.63vw;
-				height: 20.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-nutmeg {
 			width: 280px;
-			height: 290px;
 			@media (max-width: 1440px){
 				width: 20.63vw;
-				height: 18.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-zucchini {
 			top: 70%!important;
 			width: 420px;
-			height: 320px;
 			@media (max-width: 1440px){
 				width: 28.63vw;
-				height: 23.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-pear {
 			width: 350px;
-			height: 330px;
 			@media (max-width: 1440px){
 				width: 22.63vw;
-				height: 20.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-potato {
 			width: 260px;
-			height: 360px;
 			@media (max-width: 1440px){
 				width: 20.63vw;
-				height: 26.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-parsley {
 			width: 230px;
-			height: 250px;
 			@media (max-width: 1440px){
 				width: 16.63vw;
-				height: 18.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-sourcream {
 			top: 60%!important;
 			width: 290px;
-			height: 290px;
 			@media (max-width: 1440px){
 				width: 18.63vw;
-				height: 18.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-bayleaf {
 			top: 18%!important;
 			left: 5%!important;
 			width: 200px;
-			height: 200px;
 			@media (max-width: 1440px){
 				width: 15.63vw;
-				height: 15.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-cabbage {
 			bottom: 15%!important;
 			width: 280px;
-			height: 290px;
 			@media (max-width: 1440px){
 				width: 20.63vw;
-				height: 18.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-Lemon {
 			top: 10%!important;
 			width: 260px;
-			height: 220px;
 			@media (max-width: 1440px){
 				width: 20.63vw;
-				height: 18.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-zucchinislice {
 			width: 300px;
-			height: 300px;
 			@media (max-width: 1440px){
 				width: 22.63vw;
-				height: 22.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-oregano {
 			bottom: 15%!important;
 			width: 310px;
-			height: 310px;
 			@media (max-width: 1440px){
 				width: 22.63vw;
-				height: 20.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-grape {
 			top: 10%!important;	
 			width: 320px;
-			height: 200px;
 			@media (max-width: 1440px){
 				width: 15.63vw;
-				height: 12.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 20vw;
 			}
 		}
 		&-hazelnuts {
 			width: 200px;
-			height: 100px;
 			@media (max-width: 1440px){
 				width: 16.63vw;
-				height: 12.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-apple {
 			width: 170px;
-			height: 170px;
 			@media (max-width: 1440px){
 				width: 14.63vw;
-				height: 14.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-bacon {
 			width: 250px;
-			height: 250px;
 			@media (max-width: 1440px){
 				width: 18.63vw;
-				height: 18.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-figs {
 			width: 210px;
-			height: 210px;
 			@media (max-width: 1440px){
 				width: 18.63vw;
-				height: 16.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 		&-cale {
 			width: 400px;
-			height: 350px;
 			@media (max-width: 1440px){
 				width: 25.63vw;
-				height: 25.32vw;
 			}
 			@media (max-width: 768px){
 				width: 35vw;
-				height: 30vw;
 			}
 		}
 		&-pasta {
 			width: 300px;
-			height: 450px;
 			@media (max-width: 1440px){
 				width: 18.63vw;
-				height: 26.32vw;
 			}
 			@media (max-width: 768px){
 				width: 35vw;
-				height: 40vw;
 			}
 		}
 		&-chili {
 			top: 20%!important;
 			width: 270px;
-			height: 270px;
 			@media (max-width: 1440px){
 				width: 20.63vw;
-				height: 20.32vw;
 			}
 			@media (max-width: 768px){
 				width: 28vw;
-				height: 25vw;
 			}
 		}
 		&-toaster {
 			width: 370px;
-			height: 445px;
 			@media (max-width: 1440px){
 				width: 25.63vw;
-				height: 28.32vw;
 			}
 			@media (max-width: 768px){
 				width: 40vw;
-				height: 45vw;
 			}
 		}
 		&-corn {
 			width: 300px;
-			height: 300px;
 			@media (max-width: 1440px){
 				width: 18.63vw;
-				height: 26.32vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
-				height: 25vw;
 			}
 		}
 
@@ -959,8 +845,11 @@
 		}
 	}
 	.front-dish__image-top-right {
-		top: 5%;
-		right: 0;
+		top: 4%;
+		right: 5%;
+		@media (max-width: 768px){
+			right: 0;
+		}
 	}
 	
 	.front-dish__image-center-left {
@@ -1025,7 +914,7 @@
 	}
 	.front-dish__image-center-right {
 		top: 50%;
-		right: 0;
+		right: -4%;
 		transform: translate(0, -50%);
 		@media (max-width: 768px){
 			top: 60%;
@@ -1295,7 +1184,7 @@
 		left: 45%!important;
 	}
 	.front-dish__image-top-right {
-		top: 7%!important;
+		top: 5%!important;
 		right: 17%;
 		@media (max-width: 768px){
 			top: 4%!important;
@@ -1316,6 +1205,7 @@
 		top: 15%!important;
 	}
 	.front-dish__image-top-right {
+		top: 2%;
 	}
 	.front-dish__image-center-right {
 		top: 40%!important;
@@ -1333,6 +1223,8 @@
 		right: 0%;
 	}
 }
+
+
 .front-switcher {
 }
 
