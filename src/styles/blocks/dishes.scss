@@ -1,6 +1,6 @@
 .dishes {
 	position: relative;
-	z-index: 2;
+	z-index: 8;
 	&__swiper {
 	}
 	&__dish {
@@ -17,18 +17,21 @@
 
 .dish {
 	&__front {
-		padding: 350px 0 500px;
+		padding: 370px 0 500px;
 		@media (max-width: 1440px){
-			padding: 24.31vw 0 34.72vw;
+			padding: 25.69vw 0 34.72vw;
 		}
 		@media (max-width: 768px){
-			padding: 28vw 0 50vw;
+			padding: 50vw 0 50vw;
 		}
 	}
 	&__back {
-		padding-top: 30px;
+		padding-top: 140px;
 		@media (max-width: 1440px){
-			padding-top: 2.08vw;
+			padding-top: 9.72vw;
+		}
+		@media (max-width: 768px){
+			padding-top: 8vw;
 		}
 	}
 }
@@ -72,7 +75,7 @@
 	&__images {
 		opacity: 1;
 		width: 980px;
-		height: 915px;
+		height: 960px;
 		position: absolute;
 		top: 60%;
 		left: 50%;
@@ -82,7 +85,7 @@
 		flex-direction: column;
 		@media (max-width: 1440px){
 			width: 68.06vw;
-			height: 63.54vw;
+			height: 67.54vw;
 		}
 		@media (max-width: 768px){
 			top: 60%;
@@ -204,7 +207,7 @@
 		}
 
 		&-oil {
-			width: 307px;
+			width: 290px;
 			@media (max-width: 1440px){
 				width: 21.32vw;
 			}
@@ -233,7 +236,7 @@
 		&-onion {
 			width: 350px;
 			@media (max-width: 1440px){
-				width: 18.92vw;
+				width: 23.92vw;
 			}
 			@media (max-width: 768px){
 				width: 30vw;
@@ -306,7 +309,7 @@
 		&-minced {
 			width: 260px;
 			@media (max-width: 1440px){
-				width: 20.63vw;
+				width: 16.63vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
@@ -332,9 +335,9 @@
 			}
 		}
 		&-pear {
-			width: 350px;
+			width: 300px;
 			@media (max-width: 1440px){
-				width: 22.63vw;
+				width: 20.63vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
@@ -393,16 +396,16 @@
 			top: 10%!important;
 			width: 260px;
 			@media (max-width: 1440px){
-				width: 20.63vw;
+				width: 18.63vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
 			}
 		}
 		&-zucchinislice {
-			width: 300px;
+			width: 250px;
 			@media (max-width: 1440px){
-				width: 22.63vw;
+				width: 17.63vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
@@ -590,6 +593,12 @@
 				width: 1.74vw;
 				height: 0.35vw;
 				border-radius: 3.47vw;
+			}
+			@media (max-width: 768px){
+				width: 2.5vw;
+				height: 0.56vw;
+				border-radius: 7.22vw;
+				margin: 0 0.7vw;
 			}
 			&.dishes__pagination-active {
 				opacity: 1;
@@ -897,6 +906,10 @@
 .dishes-ingredient3 {
 	.front-dish__image-top-left {
 		top: 5%!important;
+		@media (max-width: 768px){
+			top: 0!important;
+			left: -5%!important;
+		}
 	}
 	.front-dish__image-top-right {
 		top: 5%;
@@ -948,15 +961,19 @@
 }
 .dishes-ingredient4 {
 	.front-dish__image-top-left {
-		top: 15%!important;
+		top: 18%!important;
 		left: 5%;
 		@media (max-width: 768px){
+			top: 15%!important;
 			left: 0;
 		}
 	}
 	.front-dish__image-top-right {
 		top: 15%;
 		right: 5%;
+		@media (max-width: 768px){
+			top: 10%!important;
+		}
 	}
 	
 	.front-dish__image-center-left {
@@ -1009,9 +1026,10 @@
 }
 .dishes-ingredient6 {
 	.front-dish__image-top-left {
-		top: 18%!important;
+		top: 20%!important;
 		left: 8%!important;
 		@media (max-width: 768px){
+			width: 18%!important;
 			left: 0!important;
 		}
 	}
@@ -1124,8 +1142,8 @@
 		top: 10%!important;
 		left: 0%!important;
 		@media (max-width: 768px){
-			top: 6%!important;
-			left: 0;
+			top: 2%!important;
+			left: -3%!important;
 		}
 	}
 	.front-dish__image-top-right {
@@ -1236,8 +1254,28 @@
 		width: 1440px;
 		max-width: 100%;
 		margin: 0 auto;
+		position: relative;
 		@media (max-width: 1440px){
 			width: 100vw;
+		}
+		&::before{
+			content:'';
+			position: absolute;
+			z-index: 1;
+			top: -40px;
+			left: 40%;
+			transform: translate(-50%, 0);
+			width: 700px;
+			height: 2px;
+			background: url('../images/hero/border.png') 0 0 / 100% 100% no-repeat;
+			@media (max-width: 1440px){
+				top: -2.78vw;
+				width: 48.61vw;
+				height: 0.14vw;
+			}
+			@media (max-width: 768px){
+				display: none;
+			}
 		}
 	}
 	&__row {
@@ -1245,6 +1283,48 @@
 		@media (max-width: 768px){
 			flex-direction: column;
 			align-items: center;
+		}
+		&::before, &::after{
+			content:'';
+			position: absolute;
+		}
+		&::before{
+			background: url('../images/dishes/back/cheese1.png') 0 0 / 100% 100% no-repeat;
+			width: 62px;
+			height: 56px;
+			top: -120px;
+			left: 30px;
+			@media (max-width: 1440px){
+				width: 4.31vw;
+				height: 3.89vw;
+				top: -8.33vw;
+				left: 2.08vw;
+			}
+			@media (max-width: 768px){
+				width: 8vw;
+				height: 7vw;
+				top: 62vw;
+				left: 3vw;
+			}
+		}
+		&::after{
+			background: url('../images/dishes/back/cheese2.png') 0 0 / 100% 100% no-repeat;
+			width: 140px;
+			height: 120px;
+			top: 240px;
+			left: 20px;
+			@media (max-width: 1440px){
+				width: 9.72vw;
+				height: 8.33vw;
+				top: -16.67vw;
+				left: 1.39vw;
+			}
+			@media (max-width: 768px){
+				width: 16.39vw;
+				height: 14.33vw;
+				top: 70vw;
+				left: 5vw;
+			}
 		}
 	}
 	&__img {
@@ -1296,7 +1376,12 @@
 		padding-top: 110px;
 		padding-bottom: 80px;
 		position: relative;
+		min-height: 590px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
 		@media (max-width: 1440px){
+			min-height: 40.97vw;
 			padding-top: 7.64vw;
 			padding-bottom: 6.17vw;
 		}
@@ -1329,11 +1414,14 @@
 		letter-spacing: 0.03em;
 		color: #FFFFFF;
 		position: relative;
+		padding-right: 150px;
 		@media (max-width: 1440px){
+			padding-right: 9.61vw;
 			font-size: 3.61vw;
 			line-height: 3.61vw;
 		}
 		@media (max-width: 768px){
+			padding-right: 0;
 			font-size: 7.22vw;
 			line-height: 7.78vw;
 			margin-top: 11.11vw;
@@ -1363,6 +1451,7 @@
 		letter-spacing: -0.03em;
 		color: #FFFFFF;
 		opacity: 0.8;
+		flex: 1 1 auto;
 		@media (max-width: 1440px){
 			margin-top: 1.11vw;
 			padding-left: 2.92vw;
@@ -1376,16 +1465,19 @@
 		}
 	}
 	&__button {
-		margin-top: 64px;
+		margin-top: 24px;
+		margin-left: 45px;
 		display: inline-flex;
 		flex-direction: column;
 		align-items: center;
 		@media (max-width: 1440px){
-			margin-top: 4.44vw;
+			margin-top: 1.44vw;
+			margin-left: 3.13vw;
 		}
 		@media (max-width: 768px){
 			order: -1;
 			margin-top: 0;
+			margin-left: 0;
 		}
 	}
 	&__switcher {
@@ -1501,10 +1593,10 @@
 }
 
 .book-back-dish {
-	margin-top: -100px;
+	margin-top: -80px;
 	position: relative;
 	@media (max-width: 1440px){
-		margin-top: -6.94vw;
+		margin-top: -6vw;
 	}
 	@media (max-width: 768px){
 		margin: 0;
@@ -1531,6 +1623,7 @@
 	&__container {
 		display: flex;
 		justify-content: space-between;
+		align-items: flex-start;
 		position: relative;
 		padding: 100px 0 250px;
 		@media (max-width: 1440px){
@@ -1803,27 +1896,58 @@
 		}
 		&-bg {
 			position: absolute;
-			top: -30px;
-			left: -20px;
+			top: 0;
+			left: 0;
 			width: 100%;
 			height: 100%;
 			@media (max-width: 1440px){
-				top: -2.08vw;
-				left: -1.39vw;
+				top: 0;
+				left: 0;
 			}
 			@media (max-width: 768px){
-				top: 60%;
+				top: 50%;
 				left: 50%;
 				transform: translate(-50%, -50%);
-				width: 110%;
-				height: 130%;
 			}
-			img {
-				width: 120%;
-				height: 125%;
+			&::before,&::after{
+				content:'';
+				position: absolute;
+				left: 0;
+			}
+			&::before{
+				top: 0;
+				transform: translate(0, -40%);
+				width: 500px;
+				height: 100px;
+				background: url('../images/dishes/back/cooking-top.png') 0 0 / 100% 100% no-repeat;
+				@media (max-width: 1440px){
+					width: 34.72vw;
+					height: 6.94vw;
+				}
 				@media (max-width: 768px){
-					width: 100%;
-					height: 100%;
+					left: 50%;
+					transform: translate(-50%, -70%);
+					width: 77.78vw;
+					height: 16.67vw;
+					background: url('../images/dishes/back/cooking-top-mob.png') 0 0 / 100% 100% no-repeat;
+				}
+			}
+			&::after{
+				bottom: 0;
+				transform: translate(10%, 115%);
+				width: 395px;
+				height: 65px;
+				background: url('../images/dishes/back/cooking-bottom.png') 0 0 / 100% 100% no-repeat;
+				@media (max-width: 1440px){
+					width: 27.43vw;
+					height: 4.51vw;
+				}
+				@media (max-width: 768px){
+					left: 50%;
+					transform: translate(-50%, 115%);
+					width: 25vw;
+					height: 16.67vw;
+					background: url('../images/dishes/back/cooking-bottom-mob.png') 0 0 / 100% 100% no-repeat;
 				}
 			}
 		}
@@ -1850,6 +1974,24 @@
 			}
 		}
 		&-ul {
+			position: relative;
+			&::before{
+				content:'';
+				position: absolute;
+				right: 0;
+				bottom: 0%;
+				width: 71px;
+				height: 220px;
+				transform: translate(100%, 0);
+				background: url('../images/dishes/back/cooking-side.png') 0 0 / 100% 100% no-repeat;
+				@media (max-width: 1440px){
+					width: 4.93vw;
+					height: 15.28vw;
+				}
+				@media (max-width: 768px){
+					display: none;
+				}
+			}
 		}
 		&-li {
 			display: flex;

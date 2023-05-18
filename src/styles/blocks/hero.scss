@@ -23,6 +23,7 @@
 		max-width: 100%;
 		margin: 0 auto;
 		padding: 0 190px;
+		position: relative;
 		@media (max-width: 1440px){
 			padding: 0 13.19vw;
 		}
@@ -32,6 +33,7 @@
 			align-items: center;
 			padding: 6.94vw 0 0;
 		}
+
 	}
 	&__leafs-full-width {
 		position: absolute;
@@ -51,7 +53,7 @@
 	}
 	&__body {
 		position: relative;
-		z-index: 5;
+		z-index: 10;
 		max-width: 520px;
 		padding-top: 138px;
 		padding-bottom: 90px;
@@ -192,13 +194,14 @@
 
 	&__img {
 		position: absolute;
+		z-index: 9;
 		top: 0;
 		right: 0;
 		width: 770px;
-		height: 690px;
+		height: 770px;
 		@media (max-width: 1440px){
 			width: 53.47vw;
-			height: 47.92vw;
+			height: 53.47vw;
 		}
 		@media (max-width: 768px){
 			top: 32%;
