@@ -25,13 +25,114 @@
 			padding: 50vw 0 50vw;
 		}
 	}
-	&__back {
-		padding-top: 140px;
+}
+.dishes-ingredient1 {
+	.dish__back {
+		padding-top: 170px;
 		@media (max-width: 1440px){
-			padding-top: 9.72vw;
+			padding-top: 12vw;
 		}
 		@media (max-width: 768px){
 			padding-top: 8vw;
+		}
+	}
+}
+.dishes-ingredient2 {
+	.dish__back {
+		padding-top: 200px;
+		@media (max-width: 1440px){
+			padding-top: 14.3vw;
+		}
+		@media (max-width: 768px){
+			padding-top: 12vw;
+		}
+	}
+}
+.dishes-ingredient3 {
+	.dish__back {
+		padding-top: 170px;
+		@media (max-width: 1440px){
+			padding-top: 12.3vw;
+		}
+		@media (max-width: 768px){
+			padding-top: 8vw;
+		}
+	}
+}
+.dishes-ingredient4 {
+	.dish__back {
+		padding-top: 140px;
+		@media (max-width: 1440px){
+			padding-top: 10.3vw;
+		}
+		@media (max-width: 768px){
+			padding-top: 4.5vw;
+		}
+	}
+}
+.dishes-ingredient5 {
+	.dish__back {
+		padding-top: 140px;
+		@media (max-width: 1440px){
+			padding-top: 10.3vw;
+		}
+		@media (max-width: 768px){
+			padding-top: 4.5vw;
+		}
+	}
+}
+.dishes-ingredient6 {
+	.dish__back {
+		padding-top: 170px;
+		@media (max-width: 1440px){
+			padding-top: 12.3vw;
+		}
+		@media (max-width: 768px){
+			padding-top: 8vw;
+		}
+	}
+}
+.dishes-ingredient7 {
+	.dish__back {
+		padding-top: 170px;
+		@media (max-width: 1440px){
+			padding-top: 12.3vw;
+		}
+		@media (max-width: 768px){
+			padding-top: 8vw;
+		}
+	}
+}
+.dishes-ingredient8 {
+	.dish__back {
+		padding-top: 140px;
+		@media (max-width: 1440px){
+			padding-top: 10.3vw;
+		}
+		@media (max-width: 768px){
+			padding-top: 8vw;
+		}
+	}
+}
+.dishes-ingredient9 {
+	.dish__back {
+		padding-top: 140px;
+		@media (max-width: 1440px){
+			padding-top: 10.3vw;
+		}
+		@media (max-width: 768px){
+			padding-top: 4.5vw;
+		}
+	}
+}
+.dishes-ingredient10 {
+	.dish__back {
+		padding-top: 140px;
+		@media (max-width: 1440px){
+			padding-top: 10.3vw;
+		}
+		@media (max-width: 768px){
+			padding-top: 4.5vw;
 		}
 	}
 }
@@ -1466,7 +1567,7 @@
 	}
 	&__button {
 		margin-top: 24px;
-		margin-left: 45px;
+		margin-left: 70px;
 		display: inline-flex;
 		flex-direction: column;
 		align-items: center;
