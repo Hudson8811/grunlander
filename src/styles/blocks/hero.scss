@@ -54,11 +54,9 @@
 		z-index: 10;
 		max-width: 520px;
 		padding-top: 138px;
-		padding-bottom: 90px;
 		@media (max-width: 1440px){
 			max-width: 36.11vw;
 			padding-top: 9.58vw;
-			padding-bottom: 6.25vw;
 		}
 		@media (max-width: 768px){
 			max-width: 80%;
@@ -196,10 +194,10 @@
 		top: 0;
 		right: 0;
 		width: 770px;
-		height: 770px;
+		height: 680px;
 		@media (max-width: 1440px){
 			width: 53.47vw;
-			height: 53.47vw;
+			height: 47.22vw;
 		}
 		@media (max-width: 768px){
 			top: 32%;

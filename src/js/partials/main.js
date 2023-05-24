@@ -5,17 +5,20 @@ $(document).ready(function() {
         navigation: {
             prevEl: ".dishes__swiper .swiper-btn-prev",
             nextEl: ".dishes__swiper .swiper-btn-next",
-        },
-        allowTouchMove: false,
+        },/* 
+        allowTouchMove: false, */
         effect: 'fade',
         fadeEffect: {
             crossFade: true
         },
+		  slidesPerView: 'auto',
         loop: true,
         speed: 800
     });
 
     $(document).on( "click", ".front-switcher", function() {
+		dishes__swiper.allowTouchMove = false;
+		dishes__swiper.update();
 		let thisSwitcher = $(this);
 		$(thisSwitcher).addClass('js-active');
 		$(thisSwitcher).closest('.front-dish').addClass('js-active');
@@ -29,6 +32,8 @@ $(document).ready(function() {
 		}, 2000);
 	});
 	$(document).on( "click", ".back-switcher", function() {
+		dishes__swiper.allowTouchMove = true;
+		dishes__swiper.update();
 		let thisSwitcher = $(this);
 		$(thisSwitcher).addClass('js-active');
 		$(thisSwitcher).closest('.back-dish').removeClass('js-active');

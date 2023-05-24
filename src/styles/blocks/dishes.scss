@@ -1,7 +1,14 @@
 .dishes {
 	position: relative;
-	z-index: 8;
+	z-index: 10;
 	&__swiper {
+		padding-top: 90px;
+		@media (max-width: 1440px){
+			padding-top: 6.25vw;
+		}
+		@media (max-width: 768px){
+			padding: 0;
+		}
 	}
 	&__dish {
 	}
@@ -175,21 +182,22 @@
 
 	&__images {
 		opacity: 1;
-		width: 980px;
+		width: 1050px;
 		height: 960px;
 		position: absolute;
-		top: 60%;
+		top: -290px;
 		left: 50%;
-		transform: translate(-50%, -50%) scale(1) rotate(0);
+		transform: translate(-50%, 0) scale(1) rotate(0);
 		transition: all 0.7s ease 0s;
 		display: flex;
 		flex-direction: column;
 		@media (max-width: 1440px){
-			width: 68.06vw;
+			top: -20.14vw;
+			width: 70vw;
 			height: 67.54vw;
 		}
 		@media (max-width: 768px){
-			top: 60%;
+			top: -30vw;
 			width: 95vw;
 			height: 110vw;
 		}
@@ -216,7 +224,7 @@
 	}
 	&__image {
 		position: absolute;
-		transition: all 0.7s ease 0.7s;
+		transition: all 1s ease 0.7s;
 		opacity: 1;
 		img {
 			width: 100%;
@@ -289,12 +297,17 @@
 			}
 		}
 		&-photocard2 {
+			bottom: auto!important;
+			top: 0!important;
+			right: 16%!important;
+			z-index: -1;
 			width: 310px;
 			@media (max-width: 1440px){
 				width: 21.53vw;
 			}
 			@media (max-width: 768px){
 				width: 35vw;
+				right: 12%!important;
 			}
 		}
 		&-crackers {
@@ -398,7 +411,7 @@
 			}
 		}
 		&-razmarin {
-			top: 10%!important;
+			
 			width: 270px;
 			@media (max-width: 1440px){
 				width: 20.63vw;
@@ -494,19 +507,21 @@
 			}
 		}
 		&-Lemon {
-			top: 10%!important;
-			width: 260px;
+			width: 200px;
 			@media (max-width: 1440px){
-				width: 18.63vw;
+				width: 15.63vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
 			}
 		}
 		&-zucchinislice {
-			width: 250px;
+			top: 2%!important;
+			right: 0!important;
+			width: 350px;
+			transform: rotate(5deg);
 			@media (max-width: 1440px){
-				width: 17.63vw;
+				width: 24.31vw;
 			}
 			@media (max-width: 768px){
 				width: 25vw;
@@ -617,8 +632,11 @@
 
 
 		&-photocard9 {
-			right: 10%!important;
-			bottom: 5%!important;
+			transform: rotate(-45deg);
+			width: 400px;
+			@media (max-width: 1440px){
+				width: 40vw;
+			}
 		}
 
 
@@ -657,6 +675,7 @@
 		&-bottom-left {
 			left: 5%;
 			bottom: 0%;
+			transform: translate(0%, 0%)!important;
 			@media (max-width: 768px){
 				left: 12%;
 				bottom: -10%;
@@ -881,11 +900,11 @@
 	&.js-active {
 		opacity: 0;
 		.front-dish__image {
-			transition: all 0.5s ease 0s;
+			transition: all 1s ease 0s;
 			&:not(.front-dish__image-plate) {
 				opacity: 0;
 				z-index: 2;
-				width: 200px;
+				/* width: 200px;
 				height: 200px;
 				@media (max-width: 1440px){
 					width: 12vw;
@@ -894,7 +913,7 @@
 				@media (max-width: 768px){
 					width: 20vw;
 					height: 20vw;
-				}
+				} */
 			}
 		}
 
@@ -928,17 +947,15 @@
 		.front-dish__image-bottom-left {
 			left: 50%!important;
 			transform: translate(-50%, 0%)!important;
-			bottom: 0!important;
 		}
 		.front-dish__image-bottom-right {
 			right: 50%!important;
 			transform: translate(50%, 0%)!important;
-			bottom: 0!important;
 		}
 		.front-dish__image-bottom-right1 {
+			top: 100%!important;
 			right: 50%!important;
-			transform: translate(50%, 0%)!important;
-			bottom: 0!important;
+			transform: translate(50%, -100%)!important;
 		}
 	}
 }
@@ -948,6 +965,15 @@
 	}
 }
 .dishes-ingredient2 {
+	.front-dish__images {
+		height: 1000px;
+		@media (max-width: 1440px){
+			height: 69.44vw;
+		}
+		@media (max-width: 768px){
+			height: 112vw;
+		}
+	}
 	.front-dish__image-top-left {
 		top: 15%!important;
 		@media (max-width: 768px){
@@ -955,10 +981,12 @@
 		}
 	}
 	.front-dish__image-top-right {
-		top: 4%;
-		right: 5%;
+		top: 8%;
+		right: -2%;
+		transform: rotate(-25deg);
 		@media (max-width: 768px){
-			right: 0;
+			top: 16%;
+			right: -8%;
 		}
 	}
 	
@@ -1013,8 +1041,9 @@
 		}
 	}
 	.front-dish__image-top-right {
-		top: 5%;
+		top: 7%;
 		right: 0;
+		transform: rotate(10deg);
 	}
 	
 	.front-dish__image-center-left {
@@ -1028,7 +1057,7 @@
 	}
 	.front-dish__image-center-right {
 		top: 50%;
-		right: -4%;
+		right: 0%;
 		transform: translate(0, -50%);
 		@media (max-width: 768px){
 			top: 60%;
@@ -1062,10 +1091,10 @@
 }
 .dishes-ingredient4 {
 	.front-dish__image-top-left {
-		top: 18%!important;
+		top: 2%!important;
 		left: 5%;
 		@media (max-width: 768px){
-			top: 15%!important;
+			top: 2%!important;
 			left: 0;
 		}
 	}
@@ -1097,8 +1126,8 @@
 	}
 	
 	.front-dish__image-bottom-left {
-		left: 12%;
-		bottom: 0%;
+		left: 5%;
+		bottom: 10%;
 		@media (max-width: 768px){
 			left: 12%;
 			bottom: -10%;
@@ -1122,7 +1151,6 @@
 }
 .dishes-ingredient5 {
 	.front-dish__image-top-left {
-		top: 15%!important;
 	}
 }
 .dishes-ingredient6 {
@@ -1130,13 +1158,12 @@
 		top: 20%!important;
 		left: 8%!important;
 		@media (max-width: 768px){
-			width: 18%!important;
+			top: 18%!important;
 			left: 0!important;
 		}
 	}
 	.front-dish__image-top-right {
-		top: 15%;
-		right: 2%;
+		
 	}
 	
 	.front-dish__image-center-left {
@@ -1184,10 +1211,12 @@
 }
 .dishes-ingredient7 {
 	.front-dish__image-top-left {
-		top: 16%!important;
+		transform: rotate(-15deg);
+		top: 7%!important;
 		left: 3%!important;
 		@media (max-width: 768px){
-			left: 0;
+			top: 0!important;
+			left: 0!important;
 		}
 	}
 	.front-dish__image-top-right {
@@ -1219,7 +1248,6 @@
 		bottom: 10%;
 		@media (max-width: 768px){
 			left: 3%;
-			bottom: 0%;
 		}
 	}
 	.front-dish__image-bottom-right {
@@ -1266,7 +1294,7 @@
 		right: 2%;
 		transform: translate(0, -50%);
 		@media (max-width: 768px){
-			top: 50%;
+			top: 55%;
 			right: 0;
 		}
 	}
@@ -1297,7 +1325,8 @@
 }
 .dishes-ingredient9 {
 	.front-dish__image-top-left {
-		top: 15%!important;
+		top: 0%!important;
+		left: -3%!important;
 	}
 	.front-dish__image-top-center {
 		left: 45%!important;
@@ -1310,6 +1339,14 @@
 			right: 15%;
 		}
 	}
+
+	.front-dish__image-center-left {
+		top: 60%!important;
+		left: 0%;
+		@media (max-width: 768px){
+			top: 60%!important;
+		}
+	}
 	.front-dish__image-center-right {
 		top: 40%!important;
 		right: 0%;
@@ -1318,10 +1355,19 @@
 			right: -2%;
 		}
 	}
+	
+	.front-dish__image-bottom-right {
+		right: 10%!important;
+		bottom: 0;
+		transform: rotate(60deg);
+	}
 }
 .dishes-ingredient10 {
 	.front-dish__image-top-left {
-		top: 15%!important;
+		top: 10%!important;
+		@media (max-width: 768px){
+			top: 0!important;
+		}
 	}
 	.front-dish__image-top-right {
 		top: 2%;
@@ -1363,15 +1409,15 @@
 			content:'';
 			position: absolute;
 			z-index: 1;
-			top: -40px;
+			top: -160px;
 			left: 40%;
 			transform: translate(-50%, 0);
-			width: 700px;
+			width: 777px;
 			height: 2px;
 			background: url('../images/hero/border.png') 0 0 / 100% 100% no-repeat;
 			@media (max-width: 1440px){
-				top: -2.78vw;
-				width: 48.61vw;
+				top: -11.11vw;
+				width: 53.96vw;
 				height: 0.14vw;
 			}
 			@media (max-width: 768px){
@@ -1412,12 +1458,12 @@
 			background: url('../images/dishes/back/cheese2.png') 0 0 / 100% 100% no-repeat;
 			width: 140px;
 			height: 120px;
-			top: 240px;
+			top: -240px;
 			left: 20px;
 			@media (max-width: 1440px){
 				width: 9.72vw;
 				height: 8.33vw;
-				top: -16.67vw;
+				top: -15.67vw;
 				left: 1.39vw;
 			}
 			@media (max-width: 768px){
@@ -1514,10 +1560,11 @@
 		line-height: 52px;
 		letter-spacing: 0.03em;
 		color: #FFFFFF;
+		text-transform: uppercase;
 		position: relative;
-		padding-right: 150px;
+		padding-right: 180px;
 		@media (max-width: 1440px){
-			padding-right: 9.61vw;
+			padding-right: 14vw;
 			font-size: 3.61vw;
 			line-height: 3.61vw;
 		}
@@ -1567,13 +1614,13 @@
 	}
 	&__button {
 		margin-top: 24px;
-		margin-left: 70px;
+		margin-left: 50px;
 		display: inline-flex;
 		flex-direction: column;
 		align-items: center;
 		@media (max-width: 1440px){
 			margin-top: 1.44vw;
-			margin-left: 3.13vw;
+			margin-left: 3.47vw;
 		}
 		@media (max-width: 768px){
 			order: -1;
@@ -2080,7 +2127,7 @@
 				content:'';
 				position: absolute;
 				right: 0;
-				bottom: 0%;
+				top: 0%;
 				width: 71px;
 				height: 220px;
 				transform: translate(100%, 0);
