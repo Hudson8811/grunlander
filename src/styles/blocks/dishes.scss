@@ -24,12 +24,45 @@
 
 .dish {
 	&__front {
+		position: relative;
 		padding: 370px 0 500px;
 		@media (max-width: 1440px){
 			padding: 25.69vw 0 34.72vw;
 		}
 		@media (max-width: 768px){
 			padding: 50vw 0 50vw;
+		}
+		&::before,&::after{
+			content:'';
+			position: absolute;
+			@media (max-width: 768px){
+				display: none;
+			}
+		}
+		&::before{
+			background: url('../images/dishes/front/front-leafs-left.png') 0 0 / 100% 100% no-repeat;
+			top: 50px;
+			left: 0;
+			width: 120px;
+			height: 200px;
+			@media (max-width: 1440px){
+				top: 3.47vw;
+				width: 8.33vw;
+				height: 13.89vw;
+			}
+		}
+		&::after{
+			background: url('../images/dishes/front/front-leafs-right.png') 0 0 / 100% 100% no-repeat;
+			top: 125px;
+			right: 25px;
+			width: 180px;
+			height: 150px;
+			@media (max-width: 1440px){
+				top: 8.68vw;
+				right: 1.74vw;
+				width: 12.50vw;
+				height: 10.42vw;
+			}
 		}
 	}
 }
@@ -516,8 +549,6 @@
 			}
 		}
 		&-zucchinislice {
-			top: 2%!important;
-			right: 0!important;
 			width: 350px;
 			transform: rotate(5deg);
 			@media (max-width: 1440px){
@@ -1221,7 +1252,8 @@
 	}
 	.front-dish__image-top-right {
 		top: 15%;
-		right: 2%;
+		right: 5%;
+		transform: rotate(35deg);
 	}
 	
 	.front-dish__image-center-left {
