@@ -994,6 +994,10 @@
 	.front-dish__image-top-left {
 		top: 10%!important;
 	}
+	.front-dish__image-bottom-left {
+		left: 7%;
+		bottom: 7%;
+	}
 }
 .dishes-ingredient2 {
 	.front-dish__images {
@@ -1074,7 +1078,7 @@
 	.front-dish__image-top-right {
 		top: 7%;
 		right: 0;
-		transform: rotate(10deg);
+		transform: rotate(15deg);
 	}
 	
 	.front-dish__image-center-left {
@@ -1276,8 +1280,8 @@
 	}
 	
 	.front-dish__image-bottom-left {
-		left: 3%;
-		bottom: 10%;
+		left: 10%;
+		bottom: 15%;
 		@media (max-width: 768px){
 			left: 3%;
 		}
@@ -1390,7 +1394,7 @@
 	
 	.front-dish__image-bottom-right {
 		right: 10%!important;
-		bottom: 0;
+		bottom: 10%;
 		transform: rotate(60deg);
 	}
 }
