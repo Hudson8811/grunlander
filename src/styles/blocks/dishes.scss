@@ -1269,10 +1269,10 @@
 	.front-dish__image-bottom-right {
 		right: -3%;
 		bottom: 20%;
+		transform: rotate(90deg);
 		@media (max-width: 768px){
 			right: -2%;
 			bottom: 0%;
-			transform: rotate(90deg);
 		}
 	}
 	.front-dish__image-bottom-right1 {
