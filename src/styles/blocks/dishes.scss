@@ -53,12 +53,12 @@
 		}
 		&::after{
 			background: url('../images/dishes/front/front-leafs-right.png') 0 0 / 100% 100% no-repeat;
-			top: 125px;
+			top: 85px;
 			right: 25px;
 			width: 180px;
 			height: 150px;
 			@media (max-width: 1440px){
-				top: 8.68vw;
+				top: 5.90vw;
 				right: 1.74vw;
 				width: 12.50vw;
 				height: 10.42vw;
@@ -326,7 +326,7 @@
 				width: 21.53vw;
 			}
 			@media (max-width: 768px){
-				width: 35vw;
+				width: 40vw;
 			}
 		}
 		&-photocard2 {
@@ -772,7 +772,7 @@
 			margin-top: 1.67vw;
 		}
 		@media (max-width: 768px){
-			font-size: 3.33vw;
+			font-size: 4vw;
 			margin-top: 3.89vw;
 		}
 	}
@@ -997,6 +997,12 @@
 		top: 10%!important;
 		@media (max-width: 768px){
 			top: 4%!important;
+		}
+	}
+	.front-dish__image-top-right {
+		@media (max-width: 768px){
+			top: 0%!important;
+			right: -5%!important;
 		}
 	}
 	.front-dish__image-bottom-left {
@@ -1495,7 +1501,7 @@
 		@media (max-width: 1440px){
 			width: 100vw;
 		}
-		&::before{
+		/* &::before{
 			content:'';
 			position: absolute;
 			z-index: 1;
@@ -1513,7 +1519,7 @@
 			@media (max-width: 768px){
 				display: none;
 			}
-		}
+		} */
 	}
 	&__row {
 		display: flex;
@@ -1696,7 +1702,7 @@
 			font-size: 1.39vw;
 		}
 		@media (max-width: 768px){
-			margin-top: 3.33vw;
+			margin-top: 4vw;
 			padding-left: 0;
 			font-size: 3.33vw;
 			max-width: 73.61vw;
@@ -1782,7 +1788,7 @@
 		font-style: normal;
 		font-weight: 800;
 		font-size: 24px;
-		line-height: 24px;
+		line-height: 100%;
 		text-align: center;
 		letter-spacing: 0.09em;
 		text-transform: uppercase;
@@ -1792,7 +1798,6 @@
 			margin-top: 1.11vw;
 			width: 13.89vw;
 			font-size: 1.67vw;
-			line-height: 1.67vw;
 		}
 		@media (max-width: 768px){
 			width: 45.83vw;

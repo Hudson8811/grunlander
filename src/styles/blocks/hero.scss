@@ -10,7 +10,7 @@
 			height: 59.72vw;
 		}
 		@media (max-width: 768px){
-			height: 180vw;
+			height: 193vw;
 		}
 		img {
 			width: 100%;
@@ -48,7 +48,7 @@
 		@media (max-width: 768px){
 			background: url('../images/hero/leafs-full-width-mob.png') 0 0 / 100% 100% no-repeat;
 			width: 100%;
-			height: 120vw;
+			height: 140vw;
 		}
 	}
 	&__body {
@@ -138,16 +138,16 @@
 		}
 		@media (max-width: 768px){
 			margin-top: 1.67vw;
-			font-size: 3.33vw;
+			font-size: 4vw;
 			text-align: center;
 		}
 	}
 	&__btn {
 		display: flex;
 		align-items: center;
-		margin-top: 18px;
+		margin-top: 60px;
 		@media (max-width: 1440px){
-			margin-top: 1.25vw;
+			margin-top: 4.17vw;
 		}
 		@media (max-width: 768px){
 			margin-top: 90vw;
@@ -182,7 +182,7 @@
 				line-height: 1.94vw;
 			}
 			@media (max-width: 768px){
-				font-size: 3.61vw;
+				font-size: 4vw;
 				line-height: 100%;
 				text-align: center;
 				order: -1;
@@ -202,7 +202,7 @@
 			height: 48.61vw;
 		}
 		@media (max-width: 768px){
-			top: 32%;
+			top: 38%;
 			width: 80vw;
 			height: 85vw;
 		}
