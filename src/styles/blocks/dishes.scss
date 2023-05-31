@@ -1005,6 +1005,11 @@
 			right: -5%!important;
 		}
 	}
+	.front-dish__image-center-left {
+		@media (max-width: 768px){
+			top: 60%!important;
+		}
+	}
 	.front-dish__image-bottom-left {
 		left: 12%;
 		bottom: 14%;
@@ -1091,6 +1096,11 @@
 	}
 }
 .dishes-ingredient3 {
+	.front-dish__images {
+		@media (max-width: 768px){
+			height: 115vw;
+		}
+	}
 	.front-dish__image-top-left {
 		top: 5%!important;
 		@media (max-width: 768px){
@@ -1113,7 +1123,7 @@
 		left: -12%;
 		transform: translate(0, -50%);
 		@media (max-width: 768px){
-			top: 70%;
+			top: 65%;
 			left: 0;
 		}
 	}
@@ -1132,7 +1142,7 @@
 		bottom: 15%;
 		@media (max-width: 768px){
 			left: 12%;
-			bottom: -10%;
+			bottom: -4%;
 		}
 	}
 	.front-dish__image-bottom-right {
@@ -1158,13 +1168,13 @@
 		top: 2%!important;
 		left: 5%;
 		@media (max-width: 768px){
-			top: 2%!important;
+			top: 0%!important;
 			left: 0;
 		}
 	}
 	.front-dish__image-top-right {
 		transform: rotate(5deg);
-		top: 17%;
+		top: 15%;
 		right: 5%;
 		@media (max-width: 768px){
 			top: 0%!important;
@@ -1218,6 +1228,9 @@
 }
 .dishes-ingredient5 {
 	.front-dish__image-top-left {
+		@media (max-width: 768px){
+			top: 0;
+		}
 	}
 	.front-dish__image-center-left {
 		left: -10%;
@@ -1242,7 +1255,10 @@
 		}
 	}
 	.front-dish__image-top-right {
-		
+		@media (max-width: 768px){
+			top: -5%;
+			transform: rotate(20deg);
+		}
 	}
 	
 	.front-dish__image-center-left {
@@ -1296,7 +1312,7 @@
 		top: 7%!important;
 		left: 3%!important;
 		@media (max-width: 768px){
-			top: 0!important;
+			top: -2%!important;
 			left: 0!important;
 		}
 	}
@@ -1361,7 +1377,7 @@
 		top: 10%!important;
 		left: 0%!important;
 		@media (max-width: 768px){
-			top: 2%!important;
+			top: 0%!important;
 			left: -3%!important;
 		}
 	}
